@@ -27,11 +27,46 @@ const CONFIG = {
       header: 'Mis Proyectos',
       projects: [
         {
-          title: 'Entorno SGI - Sistema de Gestión Integral de Laboratorio',
+          title: 'SGI LAB MANAGER - Sistema de Gestión de Inventarios para Laboratorio',
           description:
-            'Desarrollado para el Politécnico Colombiano Jaime Isaza Cadavid, el Entorno SGI optimiza la gestión de laboratorios. Incluye un sitio web (Django, JavaScript), aplicación de escritorio (Java Swing) y planificación para móvil (Kotlin). Debido a restricciones de seguridad, el acceso es mediante VPN, pero se muestran capturas de pantalla y el código fuente está disponible en GitHub.',
-          imageUrl: '', // Enlace a la primera captura de pantalla
-          link: '', // Puedes dejarlo vacío o enlazar al repo principal del SGI
+            'SGI LAB MANAGER es un sistema integral de gestión de inventarios diseñado para el laboratorio del Politécnico Colombiano Jaime Isaza Cadavid, sede regional Oriente. Su objetivo principal es optimizar la administración de recursos, mejorar la precisión del inventario y aumentar la seguridad en las prácticas de laboratorio. El proyecto se enfoca en proporcionar una solución completa y multiplataforma para la gestión eficiente del laboratorio, con una arquitectura que incluye una aplicación web, una aplicación de escritorio y una aplicación móvil en planificación.',
+          imageUrl: '', // Añade una imagen representativa del sistema (logo, mockup, etc.)
+          link: '', // Si la página web tiene una URL pública, añádela aquí
+          details: [
+            '**Componentes del Sistema:**',
+            '  -  **Página Web (En Desarrollo Avanzado):** Plataforma central para la gestión de inventario, accesible desde cualquier dispositivo con conexión a internet. Permite la consulta, el registro, la generación de reportes y la administración general del laboratorio.  Tecnologías principales: HTML, PHP, CSS.  Se planea migrar a Django (Python) en el futuro.',
+            '  -  **Aplicación de Escritorio (En Desarrollo):** Herramienta complementaria para tareas específicas dentro del laboratorio, como la entrada rápida de datos, la gestión de usuarios y la generación de etiquetas.  Tecnología principal: Python.',
+            '  -  **Aplicación Móvil (En Planificación):** Extensión móvil del sistema para facilitar la consulta de inventario, la realización de solicitudes y la recepción de notificaciones directamente desde dispositivos móviles.  Tecnologías en consideración: Java, Kotlin.',
+            '**Objetivos Clave:**',
+            '  -  Centralizar y digitalizar la gestión de inventarios para reducir el uso de métodos manuales.',
+            '  -  Proporcionar información precisa y en tiempo real sobre la disponibilidad y ubicación de los recursos.',
+            '  -  Mejorar la trazabilidad de los elementos y el registro de su uso.',
+            '  -  Facilitar el acceso a la información de seguridad y manipulación de sustancias y equipos.',
+            '  -  Optimizar los procesos de solicitud, préstamo y devolución de materiales.',
+            '  -  Generar reportes para la toma de decisiones y la planificación de adquisiciones.',
+            '**Módulos y Funcionalidades (Generales):**',
+            '  -  Gestión de Insumos: Registro detallado, clasificación y seguimiento de implementos y sustancias.',
+            '  -  Control de Stock: Administración de entradas, salidas, ajustes y niveles mínimos de stock.',
+            '  -  Gestión de Usuarios: Control de acceso basado en roles y permisos.',
+            '  -  Gestión de Préstamos: Seguimiento de préstamos y devoluciones de equipos y materiales.',
+            '  -  Reportes e Informes: Generación de reportes personalizados sobre inventario, uso y movimientos.',
+            '  -  Información de Seguridad: Acceso a fichas técnicas, hojas de seguridad y manuales de uso.',
+            '**Beneficiarios:**',
+            '  -  Personal de laboratorio (laboratoristas, técnicos, monitores).',
+            '  -  Docentes y estudiantes que utilizan el laboratorio.',
+            '  -  Administradores y responsables de la gestión de recursos.',
+          ],
+          technologies: [
+            'Python',
+            'HTML',
+            'PHP',
+            'CSS',
+            'MySQL',
+            'Git',
+            'Django (Planificado)',
+            'Java (En Consideración)',
+            'Kotlin (En Consideración)',
+          ],
         },
         {
           title: 'Semillero de Realidad Virtual - [Nombre del proyecto VR]',
@@ -46,8 +81,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portafolio de Jose Andres Daza Gallego',
-    description:
-      'Portafolio personal de Jose Andres Daza Gallego, estudiante de Ingeniería Informática con experiencia en desarrollo web, desarrollo móvil, data science, devops y realidad virtual.',
+    description:'Portafolio personal de Jose Andres Daza Gallego, estudiante de Ingeniería Informática con experiencia en desarrollo web, desarrollo móvil, data science, devops y realidad virtual.',
     imageURL: '',
   },
   social: {
@@ -73,8 +107,7 @@ const CONFIG = {
     email: 'foxy200442@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://drive.google.com/file/d/1BTX3xD1ictPuRaAaoluyPRZuoUQ43ZLT/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1BTX3xD1ictPuRaAaoluyPRZuoUQ43ZLT/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -114,7 +147,7 @@ const CONFIG = {
         name: 'Certified Kubernetes Administrator (CKA)',
         body: 'Demuestra habilidades en la administración de Kubernetes, la plataforma líder para la orquestación de contenedores.',
         year: 'April 2025',
-        link: 'ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
+        link: 'https://ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
     },
     {
         name: 'Curso de Java SE Orientado a Objetos',
@@ -272,11 +305,11 @@ educations: [
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Hecho con <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> y ❤️`,
 
   enablePWA: true,
 };
