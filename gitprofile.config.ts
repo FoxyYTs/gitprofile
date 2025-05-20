@@ -121,24 +121,21 @@ const CONFIG = {
     email: 'foxy200442@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1BTX3xD1ictPuRaAaoluyPRZuoUQ43ZLT/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1olYR87wFs1mOOySZDOzDRAvIBItwLcOJ/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Python',
-    'JavaScript',
-    'PHP',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'CSS',
-    'Java',
-    'Python',
-    'C++',
-    'C#',
-    'HTML'
+  // Lenguajes de Programación
+  'Python', 'Java', 'JavaScript', 'C++', 'C#',
+  // Front-End
+  'HTML', 'CSS',
+  // Back-End
+  'Node.js', 'PHP',
+  // Bases de Datos
+  'MySQL', 'PostgreSQL', 'SQL',
+  // Herramientas y Tecnologías
+  'Git', 'Unity', 'Blender',
+  // Metodologías
+  'Scrum'
   ],
   experiences: [
     {
