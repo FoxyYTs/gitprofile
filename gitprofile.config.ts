@@ -62,12 +62,40 @@ const CONFIG = {
           link: '',
         },
         {
-          title: 'Semillero de Realidad Virtual - [Nombre del proyecto VR]',
+          title: 'Semillero RV - Ambientes Inmersivos de Aprendizaje',
           description:
-            'Participación en el semillero de realidad virtual, enfocado en [breve descripción del proyecto]. Se utilizó [tecnologías]. [Si tienes un enlace a un demo o algo público, ponlo aquí].',
-          imageUrl: '', // Enlace a una imagen del proyecto VR
-          link: '', // Enlace al demo, video, etc.
+            'Desarrollo de entornos 3D inmersivos para conservar espacios educativos (aula, laboratorio, edificio) y proyectar futuras construcciones en el Politécnico Colombiano Jaime Isaza Cadavid. Usa escaneo 3D, modelado (Unity/Blender), y VR. Busca innovación educativa y preservar patrimonio institucional.',
+          imageUrl: '', //  Añade una imagen representativa del proyecto
+          link: '',
         },
+        {
+          title: 'Semillero RV - Objetivos y Metodología',
+          description:
+            'Objetivos: Conservar digitalmente espacios existentes, proyectar futuros, mejorar accesibilidad educativa. Metodología: Investigación, Modelado, Implementación (VR Chat), Evaluación con usuarios.',
+          imageUrl: '', //  Añade una imagen de la metodología o un diagrama
+          link: '',
+        },
+        {
+          title: 'Semillero RV - Resultados e Impacto',
+          description:
+            'Resultados: Colección digital de 3 entornos, prototipo de campus virtual. Impacto: Enseñanza interactiva, acceso inclusivo, preservación digital, innovación tecnológica.',
+          imageUrl: '', //  Añade una imagen de los resultados o del impacto del proyecto
+          link: '',
+        },
+        {
+          title: 'Semillero RV - Detalles Técnicos',
+          description:
+            'Tecnologías: Realidad Virtual/Aumentada, Escaneo 3D, Modelado 3D (Unity, Blender), VR Chat.  Desafíos superados: Optimización de entornos VR.',
+          imageUrl: '', //  Añade una imagen de las tecnologías utilizadas
+          link: '',
+        },
+        {
+          title: 'Semillero RV - Contexto y Futuro',
+          description:
+            'Problema: Pérdida de memoria institucional y poca accesibilidad a entornos innovadores.  Futuro: Integrar IA para guías, preservar actividades pedagógicas, recrear espacios culturales.',
+          imageUrl: '', //  Añade una imagen del contexto o del futuro del proyecto
+          link: '',
+        }
         // Otros proyectos
       ],
     },
