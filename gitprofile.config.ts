@@ -36,14 +36,14 @@ const CONFIG = {
         {
           title: 'SGI LAB MANAGER - Detalles Web',
           description:
-            'Página web para la gestión central del inventario: consulta, registro, reportes y administración. Tecnologías: HTML, PHP, CSS. Migración a Django planeada.  Enlace al repositorio: https://github.com/FoxyYTs/SGI',
-          imageUrl: '', //  Añade una imagen de la web
+            'Página web para la gestión central del inventario: consulta, registro, reportes y administración. Tecnologías: HTML, PHP, CSS. Migración a Django planeada.',
+          imageUrl: 'https://github.com/FoxyYTs/SGI-App/blob/main/Ordenador/imageweb.png?raw=true', //  Añade una imagen de la web
           link: 'https://github.com/FoxyYTs/SGI', //  Enlace al repositorio de la web
         },
         {
           title: 'SGI LAB MANAGER - Detalles Escritorio',
           description:
-            'Aplicación de escritorio para tareas internas: entrada rápida de datos, gestión de usuarios, etiquetas.  Tecnología: Python. Enlace al repositorio: https://github.com/FoxyYTs/SGI-App',
+            'Aplicación de escritorio para tareas internas: entrada rápida de datos, gestión de usuarios, etiquetas.',
           imageUrl: 'https://github.com/FoxyYTs/SGI-App/blob/main/Ordenador/image.png?raw=true', //  Añade una imagen de la app de escritorio
           link: 'https://github.com/FoxyYTs/SGI-App', //  Enlace al repositorio de la app de escritorio
         },
