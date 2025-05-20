@@ -67,7 +67,7 @@ const CONFIG = {
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
+    telegram: 'FoxyYTs',
     website: '',
     phone: '',
     email: 'foxy200442@gmail.com',
@@ -201,7 +201,7 @@ educations: [
   //   limit: 2, // How many articles to display. Max is 10.
   // },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-5NPY5MX45W', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
