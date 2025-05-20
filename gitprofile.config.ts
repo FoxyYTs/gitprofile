@@ -37,14 +37,14 @@ const CONFIG = {
           title: 'SGI LAB MANAGER - Detalles Web',
           description:
             'Página web para la gestión central del inventario: consulta, registro, reportes y administración. Tecnologías: HTML, PHP, CSS. Migración a Django planeada.',
-          imageUrl: 'https://github.com/FoxyYTs/SGI-App/blob/main/Ordenador/imageweb.png?raw=true', //  Añade una imagen de la web
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imageweb.png?raw=true', //  Añade una imagen de la web
           link: 'https://github.com/FoxyYTs/SGI', //  Enlace al repositorio de la web
         },
         {
           title: 'SGI LAB MANAGER - Detalles Escritorio',
           description:
             'Aplicación de escritorio para tareas internas: entrada rápida de datos, gestión de usuarios, etiquetas.',
-          imageUrl: 'https://github.com/FoxyYTs/SGI-App/blob/main/Ordenador/image.png?raw=true', //  Añade una imagen de la app de escritorio
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imagepc.png?raw=true', //  Añade una imagen de la app de escritorio
           link: 'https://github.com/FoxyYTs/SGI-App', //  Enlace al repositorio de la app de escritorio
         },
         {
@@ -52,49 +52,42 @@ const CONFIG = {
           description:
             'Aplicación móvil (planificada) para consulta de inventario, solicitudes y notificaciones. Tecnologías en consideración: Java, Kotlin.',
           imageUrl: '', //  Añade un mockup si tienes
-          link: '',
         },
         {
           title: 'SGI LAB MANAGER - Info General',
           description:
             'Objetivos: Centralizar gestión, info en tiempo real, trazabilidad, seguridad, optimizar procesos, reportes. Módulos: Insumos, Stock, Usuarios, Préstamos, Seguridad. Beneficiarios: Personal, Docentes, Administradores.',
           imageUrl: '', //  Añade una imagen general del proyecto
-          link: '',
         },
         {
           title: 'Semillero RV - Ambientes Inmersivos de Aprendizaje',
           description:
             'Desarrollo de entornos 3D inmersivos para conservar espacios educativos (aula, laboratorio, edificio) y proyectar futuras construcciones en el Politécnico Colombiano Jaime Isaza Cadavid. Usa escaneo 3D, modelado (Unity/Blender), y VR. Actualmente implementado en VR Chat, con desarrollo futuro de motor propio en Unity para expandir funcionalidades. Busca innovación educativa y preservar patrimonio institucional.',
-          imageUrl: '', //  Añade una imagen representativa del proyecto
-          link: '',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgegrupo.jpg?raw=true', //  Añade una imagen representativa del proyecto
         },
         {
           title: 'Semillero RV - Objetivos y Metodología',
           description:
             'Objetivos: Conservar digitalmente espacios existentes, proyectar futuros, mejorar accesibilidad educativa. Metodología: Investigación, Modelado, Implementación (inicialmente en VR Chat, luego motor propio en Unity), Evaluación con usuarios.',
-          imageUrl: '', //  Añade una imagen de la metodología o un diagrama
-          link: '',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imggrupo.jpg?raw=true', //  Añade una imagen de la metodología o un diagrama
         },
         {
           title: 'Semillero RV - Resultados e Impacto',
           description:
             'Resultados: Colección digital de 3 entornos, prototipo de campus virtual (en VR Chat). Impacto: Enseñanza interactiva, acceso inclusivo, preservación digital, innovación tecnológica.',
-          imageUrl: '', //  Añade una imagen de los resultados o del impacto del proyecto
-          link: '',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgpresentacion.jpg?raw=true', //  Añade una imagen de los resultados o del impacto del proyecto
         },
         {
           title: 'Semillero RV - Detalles Técnicos',
           description:
             'Tecnologías: Realidad Virtual/Aumentada, Escaneo 3D, Modelado 3D (Unity, Blender), VR Chat (implementación actual), Unity (motor propio en desarrollo). Desafíos superados: Optimización de entornos VR.',
-          imageUrl: '', //  Añade una imagen de las tecnologías utilizadas
-          link: '',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgmodels.jpg?raw=true', //  Añade una imagen de las tecnologías utilizadas
         },
         {
           title: 'Semillero RV - Contexto y Futuro',
           description:
             'Problema: Pérdida de memoria institucional y poca accesibilidad a entornos innovadores. Futuro: Integrar IA para guías, preservar actividades pedagógicas, recrear espacios culturales, desarrollo de motor propio en Unity para mayor control y personalización.',
           imageUrl: '', //  Añade una imagen del contexto o del futuro del proyecto
-          link: '',
         }
         // Otros proyectos
       ],
