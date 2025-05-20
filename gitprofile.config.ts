@@ -27,46 +27,39 @@ const CONFIG = {
       header: 'Mis Proyectos',
       projects: [
         {
-          title: 'SGI LAB MANAGER - Sistema de Gestión de Inventarios para Laboratorio',
+          title: 'SGI LAB MANAGER - Sistema de Gestión de Inventarios',
           description:
-            'SGI LAB MANAGER es un sistema integral de gestión de inventarios diseñado para el laboratorio del Politécnico Colombiano Jaime Isaza Cadavid, sede regional Oriente. Su objetivo principal es optimizar la administración de recursos, mejorar la precisión del inventario y aumentar la seguridad en las prácticas de laboratorio. El proyecto se enfoca en proporcionar una solución completa y multiplataforma para la gestión eficiente del laboratorio, con una arquitectura que incluye una aplicación web, una aplicación de escritorio y una aplicación móvil en planificación.',
-          imageUrl: '', // Añade una imagen representativa del sistema (logo, mockup, etc.)
-          link: '', // Si la página web tiene una URL pública, añádela aquí
-          details: [
-            '**Componentes del Sistema:**',
-            '  -  **Página Web (En Desarrollo Avanzado):** Plataforma central para la gestión de inventario, accesible desde cualquier dispositivo con conexión a internet. Permite la consulta, el registro, la generación de reportes y la administración general del laboratorio.  Tecnologías principales: HTML, PHP, CSS.  Se planea migrar a Django (Python) en el futuro.',
-            '  -  **Aplicación de Escritorio (En Desarrollo):** Herramienta complementaria para tareas específicas dentro del laboratorio, como la entrada rápida de datos, la gestión de usuarios y la generación de etiquetas.  Tecnología principal: Python.',
-            '  -  **Aplicación Móvil (En Planificación):** Extensión móvil del sistema para facilitar la consulta de inventario, la realización de solicitudes y la recepción de notificaciones directamente desde dispositivos móviles.  Tecnologías en consideración: Java, Kotlin.',
-            '**Objetivos Clave:**',
-            '  -  Centralizar y digitalizar la gestión de inventarios para reducir el uso de métodos manuales.',
-            '  -  Proporcionar información precisa y en tiempo real sobre la disponibilidad y ubicación de los recursos.',
-            '  -  Mejorar la trazabilidad de los elementos y el registro de su uso.',
-            '  -  Facilitar el acceso a la información de seguridad y manipulación de sustancias y equipos.',
-            '  -  Optimizar los procesos de solicitud, préstamo y devolución de materiales.',
-            '  -  Generar reportes para la toma de decisiones y la planificación de adquisiciones.',
-            '**Módulos y Funcionalidades (Generales):**',
-            '  -  Gestión de Insumos: Registro detallado, clasificación y seguimiento de implementos y sustancias.',
-            '  -  Control de Stock: Administración de entradas, salidas, ajustes y niveles mínimos de stock.',
-            '  -  Gestión de Usuarios: Control de acceso basado en roles y permisos.',
-            '  -  Gestión de Préstamos: Seguimiento de préstamos y devoluciones de equipos y materiales.',
-            '  -  Reportes e Informes: Generación de reportes personalizados sobre inventario, uso y movimientos.',
-            '  -  Información de Seguridad: Acceso a fichas técnicas, hojas de seguridad y manuales de uso.',
-            '**Beneficiarios:**',
-            '  -  Personal de laboratorio (laboratoristas, técnicos, monitores).',
-            '  -  Docentes y estudiantes que utilizan el laboratorio.',
-            '  -  Administradores y responsables de la gestión de recursos.',
-          ],
-          technologies: [
-            'Python',
-            'HTML',
-            'PHP',
-            'CSS',
-            'MySQL',
-            'Git',
-            'Django (Planificado)',
-            'Java (En Consideración)',
-            'Kotlin (En Consideración)',
-          ],
+            'Sistema integral de gestión de inventarios diseñado para el laboratorio del Politécnico Colombiano Jaime Isaza Cadavid. Incluye: Web (HTML, PHP, CSS; futuro Django), Escritorio (Python) y Móvil (Java/Kotlin en planificación).',
+          imageUrl: '', //  Añade una imagen representativa
+          link: 'https://github.com/FoxyYTs/SGI', //  Enlace al repositorio principal (página web)
+        },
+        {
+          title: 'SGI LAB MANAGER - Detalles Web',
+          description:
+            'Página web para la gestión central del inventario: consulta, registro, reportes y administración. Tecnologías: HTML, PHP, CSS. Migración a Django planeada.  Enlace al repositorio: https://github.com/FoxyYTs/SGI',
+          imageUrl: '', //  Añade una imagen de la web
+          link: 'https://github.com/FoxyYTs/SGI', //  Enlace al repositorio de la web
+        },
+        {
+          title: 'SGI LAB MANAGER - Detalles Escritorio',
+          description:
+            'Aplicación de escritorio para tareas internas: entrada rápida de datos, gestión de usuarios, etiquetas.  Tecnología: Python. Enlace al repositorio: https://github.com/FoxyYTs/SGI-App',
+          imageUrl: 'https://github.com/FoxyYTs/SGI-App/blob/main/Ordenador/image.png?raw=true', //  Añade una imagen de la app de escritorio
+          link: 'https://github.com/FoxyYTs/SGI-App', //  Enlace al repositorio de la app de escritorio
+        },
+        {
+          title: 'SGI LAB MANAGER - Detalles Móvil',
+          description:
+            'Aplicación móvil (planificada) para consulta de inventario, solicitudes y notificaciones. Tecnologías en consideración: Java, Kotlin.',
+          imageUrl: '', //  Añade un mockup si tienes
+          link: '',
+        },
+        {
+          title: 'SGI LAB MANAGER - Info General',
+          description:
+            'Objetivos: Centralizar gestión, info en tiempo real, trazabilidad, seguridad, optimizar procesos, reportes. Módulos: Insumos, Stock, Usuarios, Préstamos, Seguridad. Beneficiarios: Personal, Docentes, Administradores.',
+          imageUrl: '', //  Añade una imagen general del proyecto
+          link: '',
         },
         {
           title: 'Semillero de Realidad Virtual - [Nombre del proyecto VR]',
