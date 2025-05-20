@@ -64,35 +64,35 @@ const CONFIG = {
         {
           title: 'Semillero RV - Ambientes Inmersivos de Aprendizaje',
           description:
-            'Desarrollo de entornos 3D inmersivos para conservar espacios educativos (aula, laboratorio, edificio) y proyectar futuras construcciones en el Politécnico Colombiano Jaime Isaza Cadavid. Usa escaneo 3D, modelado (Unity/Blender), y VR. Busca innovación educativa y preservar patrimonio institucional.',
+            'Desarrollo de entornos 3D inmersivos para conservar espacios educativos (aula, laboratorio, edificio) y proyectar futuras construcciones en el Politécnico Colombiano Jaime Isaza Cadavid. Usa escaneo 3D, modelado (Unity/Blender), y VR. Actualmente implementado en VR Chat, con desarrollo futuro de motor propio en Unity para expandir funcionalidades. Busca innovación educativa y preservar patrimonio institucional.',
           imageUrl: '', //  Añade una imagen representativa del proyecto
           link: '',
         },
         {
           title: 'Semillero RV - Objetivos y Metodología',
           description:
-            'Objetivos: Conservar digitalmente espacios existentes, proyectar futuros, mejorar accesibilidad educativa. Metodología: Investigación, Modelado, Implementación (VR Chat), Evaluación con usuarios.',
+            'Objetivos: Conservar digitalmente espacios existentes, proyectar futuros, mejorar accesibilidad educativa. Metodología: Investigación, Modelado, Implementación (inicialmente en VR Chat, luego motor propio en Unity), Evaluación con usuarios.',
           imageUrl: '', //  Añade una imagen de la metodología o un diagrama
           link: '',
         },
         {
           title: 'Semillero RV - Resultados e Impacto',
           description:
-            'Resultados: Colección digital de 3 entornos, prototipo de campus virtual. Impacto: Enseñanza interactiva, acceso inclusivo, preservación digital, innovación tecnológica.',
+            'Resultados: Colección digital de 3 entornos, prototipo de campus virtual (en VR Chat). Impacto: Enseñanza interactiva, acceso inclusivo, preservación digital, innovación tecnológica.',
           imageUrl: '', //  Añade una imagen de los resultados o del impacto del proyecto
           link: '',
         },
         {
           title: 'Semillero RV - Detalles Técnicos',
           description:
-            'Tecnologías: Realidad Virtual/Aumentada, Escaneo 3D, Modelado 3D (Unity, Blender), VR Chat.  Desafíos superados: Optimización de entornos VR.',
+            'Tecnologías: Realidad Virtual/Aumentada, Escaneo 3D, Modelado 3D (Unity, Blender), VR Chat (implementación actual), Unity (motor propio en desarrollo). Desafíos superados: Optimización de entornos VR.',
           imageUrl: '', //  Añade una imagen de las tecnologías utilizadas
           link: '',
         },
         {
           title: 'Semillero RV - Contexto y Futuro',
           description:
-            'Problema: Pérdida de memoria institucional y poca accesibilidad a entornos innovadores.  Futuro: Integrar IA para guías, preservar actividades pedagógicas, recrear espacios culturales.',
+            'Problema: Pérdida de memoria institucional y poca accesibilidad a entornos innovadores. Futuro: Integrar IA para guías, preservar actividades pedagógicas, recrear espacios culturales, desarrollo de motor propio en Unity para mayor control y personalización.',
           imageUrl: '', //  Añade una imagen del contexto o del futuro del proyecto
           link: '',
         }
