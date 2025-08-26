@@ -173,6 +173,11 @@ const CONFIG = {
       link: 'https://ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
     },
     {
+      name: 'Bootcamp Devops Project Lab',
+      body: 'Certifica la participación en el Bootcamp Devops Project Lab, impartido por Softserve, con enfoque en la práctica de proyectos DevOps.',
+      year: 'Marzo - Junio 2025',
+    },
+    {
       name: 'Curso de Java SE Orientado a Objetos ☕',
       body: 'Certifica el conocimiento en Java SE con enfoque en Programación Orientada a Objetos.',
       year: 'Septiembre 2023',
