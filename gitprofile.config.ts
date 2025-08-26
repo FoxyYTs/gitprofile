@@ -220,7 +220,7 @@ const CONFIG = {
       institution: 'Politécnico Colombiano Jaime Isaza Cadavid',
       degree: 'Ingeniería Informática 🎓',
       from: 'Agosto 2022',
-      to: 'Presente (6to Semestre)',
+      to: 'Presente (7mo Semestre)',
     },
     {
       institution: 'Institución Educativa Inem José Félix de Restrepo',
