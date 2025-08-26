@@ -142,7 +142,7 @@ const CONFIG = {
       company: 'Politécnico Colombiano Jaime Isaza Cadavid',
       position: 'Monitor de Laboratorio 🧪',
       from: 'Febrero 2024',
-      to: 'Junio 2024',
+      to: 'Presente',
       companyLink: 'https://www.politecnicojic.edu.co/',
     },
     {
@@ -155,6 +155,18 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'Curso de Django 💻',
+      body: 'Certifica el conocimiento en el desarrollo web con el framework Django.',
+      year: 'Agosto 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/9574-course/diploma/detalle/',
+    },
+    {
+      name: 'Curso de Python 🐍',
+      body: 'Certifica los conocimientos y la participación en el Curso de Python.',
+      year: 'Agosto 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/1104-course/diploma/detalle/',
+    },
+    {
       name: 'Certified Kubernetes Administrator (CKA) ☁️',
       body: 'Demuestra habilidades en la administración de Kubernetes, la plataforma líder para la orquestación de contenedores.',
       year: 'Abril 2025',
@@ -164,43 +176,43 @@ const CONFIG = {
       name: 'Curso de Java SE Orientado a Objetos ☕',
       body: 'Certifica el conocimiento en Java SE con enfoque en Programación Orientada a Objetos.',
       year: 'Septiembre 2023',
-      link: 'https://platzi.com/@JoseDaza/',
+      link: 'https://platzi.com/p/JoseDaza/curso/1629-course/diploma/detalle/',
     },
     {
       name: 'Curso de Programación Orientada a Objetos 🧩',
       body: 'Certifica el conocimiento en los principios y prácticas de la Programación Orientada a Objetos.',
       year: 'Abril 2023',
-      link: 'https://platzi.com/@JoseDaza/',
+      link: 'https://platzi.com/p/JoseDaza/curso/1474-course/diploma/detalle/',
     },
     {
       name: 'Curso de Computación Básica 📚',
       body: 'Certifica el conocimiento en los fundamentos de la computación.',
       year: 'Febrero 2023',
-      link: 'https://platzi.com/@JoseDaza/',
+      link: 'https://platzi.com/p/JoseDaza/curso/2793-course/diploma/detalle/',
     },
     {
       name: 'Curso de Introducción a Java SE 📖',
       body: 'Certifica la introducción y conocimientos básicos del lenguaje de programación Java SE.',
       year: 'Noviembre 2022',
-      link: 'https://platzi.com/@JoseDaza/',
+      link: 'https://platzi.com/p/JoseDaza/curso/1631-course/diploma/detalle/',
     },
     {
       name: 'Curso de Prework: Configuración de Entorno de Desarrollo en Windows 💻',
       body: 'Certifica la habilidad para configurar un entorno de desarrollo en el sistema operativo Windows.',
       year: 'Diciembre 2021',
-      link: 'https://platzi.com/@JoseDaza/',
+      link: 'https://platzi.com/p/JoseDaza/curso/2042-course/diploma/detalle/',
     },
     {
       name: 'Curso Básico de Python 🐍',
       body: 'Certifica la introducción y conocimientos básicos del lenguaje de programación Python.',
       year: 'Agosto 2021',
-      link: 'https://platzi.com/@JoseDaza/',
+      link: 'https://platzi.com/p/JoseDaza/curso/1937-course/diploma/detalle/',
     },
     {
       name: 'Curso de Creación de Videojuegos 🎮',
       body: 'Certifica la habilidad para crear videojuegos.',
       year: 'Enero 2021',
-      link: 'https://platzi.com/@JoseDaza/',
+      link: 'https://platzi.com/p/JoseDaza/curso/1062-course/diploma/detalle/',
     },
   ],
   educations: [
