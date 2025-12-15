@@ -137,7 +137,7 @@ const CONFIG = {
   // Metodologías 🗺️
   'Scrum',
   // Sistemas Operativos 🖥
-  'Linux(Ubuntu), (Kali)', 'Windows'
+  'Linux(Ubuntu, Kali)', 'Windows'
   ],
   experiences: [
     {
@@ -239,7 +239,7 @@ const CONFIG = {
       institution: 'Politécnico Colombiano Jaime Isaza Cadavid',
       degree: 'Ingeniería Informática 🎓',
       from: 'Agosto 2022',
-      to: 'Presente (7mo Semestre)',
+      to: 'Presente (8vo Semestre)',
     },
     {
       institution: 'Institución Educativa Inem José Félix de Restrepo',
