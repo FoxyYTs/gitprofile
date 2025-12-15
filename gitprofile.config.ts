@@ -131,11 +131,13 @@ const CONFIG = {
   // Back-End ⚙️
   'Node.js', 'PHP',
   // Bases de Datos 🗄️
-  'MySQL', 'PostgreSQL', 'SQL',
+  'MySQL', 'PostgreSQL', 'MongoDB',
   // Herramientas y Tecnologías 🛠️
   'Git', 'Unity', 'Blender',
   // Metodologías 🗺️
-  'Scrum'
+  'Scrum',
+  // Sistemas Operativos 🖥
+  'Linux(Ubuntu), (Kali)', 'Windows'
   ],
   experiences: [
     {
@@ -154,6 +156,18 @@ const CONFIG = {
     },
   ],
   certifications: [
+    {
+      name: 'MongoDB for SQL Professionals',
+      body: 'certificación Linux Essentials del Linux Professional Institute.',
+      year: 'Noviembre 2025',
+      link: 'https://learn.mongodb.com/c/r0Q-OyvpRNa1u05RIrvIog',
+    },
+    {
+      name: 'Linux Essentials',
+      body: 'certificación Linux Essentials del Linux Professional Institute.',
+      year: 'Noviembre 2025',
+      link: 'https://www.credly.com/badges/8cdf2b90-6313-418f-b203-78ab6e55f9aa',
+    },
     {
       name: 'Curso de Django 💻',
       body: 'Certifica el conocimiento en el desarrollo web con el framework Django.',
