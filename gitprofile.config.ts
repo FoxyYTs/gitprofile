@@ -158,7 +158,6 @@ const CONFIG = {
   certifications: [
     {
       name: 'MongoDB for SQL Professionals',
-      body: 'certificación Linux Essentials del Linux Professional Institute.',
       year: 'Noviembre 2025',
       link: 'https://learn.mongodb.com/c/r0Q-OyvpRNa1u05RIrvIog',
     },
