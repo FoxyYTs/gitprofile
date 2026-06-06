@@ -20,75 +20,64 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['FoxyYTs/SGI', 'FoxyYTs/SGI-App'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'Mis Proyectos ✨',
       projects: [
         {
-          title: 'SGI LAB MANAGER - Sistema de Gestión de Inventarios 📊',
+          title: 'SGI LAB MANAGER - Visión General 📊',
           description:
-            'Sistema integral de gestión de inventarios diseñado para el laboratorio del Politécnico Colombiano Jaime Isaza Cadavid. Incluye: Web (HTML, PHP, CSS; futuro Django), Escritorio (Python) y Móvil (Java/Kotlin en planificación). ¡Control total de tu laboratorio! 🧪',
-          imageUrl: '', // Añade una imagen representativa
-          link: 'https://github.com/FoxyYTs/SGI', // Enlace al repositorio principal (página web)
+            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Aplicación multi-plataforma en Flutter/Dart con backend en Django. Corre en Android, Web, Windows y Linux. Primera versión en producción. Roles: ADMIN, LAB, MONITOR, ESTUDIANTE con permisos en tiempo real.',
+          imageUrl: '',
+          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
-          title: 'SGI LAB MANAGER - Detalles Web 🌐',
+          title: 'SGI LAB MANAGER - Inventario y Seguridad Química ⚗️',
           description:
-            'Página web para la gestión central del inventario: consulta, registro, reportes y administración. Tecnologías: HTML, PHP, CSS. Migración a Django planeada. ¡Acceso fácil desde cualquier lugar! 💻',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imageweb.png?raw=true', // Añade una imagen de la web
-          link: 'https://github.com/FoxyYTs/SGI', // Enlace al repositorio de la web
+            'Control de insumos (Implemento, Vidriería, Químico, Equipo) con semáforo visual de stock y filtros. Ficha GHS completa: pictogramas, rombo NFPA 704, frases H/P, EPP. Extracción automática desde PDF de FDS con IA (Groq/Llama). Generación de etiquetas GHS en PDF en 4 formatos.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imageweb.png?raw=true',
+          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
-          title: 'SGI LAB MANAGER - Detalles Escritorio 🖥️',
+          title: 'SGI LAB MANAGER - Préstamos, Horarios e Informes 📋',
           description:
-            'Aplicación de escritorio para tareas internas: entrada rápida de datos, gestión de usuarios, etiquetas. Desarrollado en Python. ¡Eficiencia al máximo! ⚡',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imagepc.png?raw=true', // Añade una imagen de la app de escritorio
-          link: 'https://github.com/FoxyYTs/SGI-App', // Enlace al repositorio de la app de escritorio
+            'Flujo completo de préstamos (PENDIENTE → ACTIVO → DEVUELTO) con descuento de stock automático. Horario semanal Lun–Sáb con vistas de encargados y asignaturas. Informes en PDF y Excel: inventario, préstamos, horas monitor, prácticas docentes y más. Formularios públicos por QR sin login.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imagepc.png?raw=true',
+          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
-          title: 'SGI LAB MANAGER - Detalles Móvil 📱',
+          title: 'SGI LAB MANAGER - Modo Offline y Seguridad 🔒',
           description:
-            'Aplicación móvil (planificada) para consulta de inventario, solicitudes y notificaciones. Tecnologías en consideración: Java, Kotlin. ¡Tu inventario en la palma de tu mano! 🖐️',
-          imageUrl: '', // Añade un mockup si tienes
-        },
-        {
-          title: 'SGI LAB MANAGER - Info General 💡',
-          description:
-            'Objetivos: Centralizar gestión, info en tiempo real, trazabilidad, seguridad, optimizar procesos, reportes. Módulos: Insumos, Stock, Usuarios, Préstamos, Seguridad. Beneficiarios: Personal, Docentes, Administradores. ¡Innovación para el laboratorio! 🌟',
-          imageUrl: '', // Añade una imagen general del proyecto
+            'Modo offline en Android/Linux con SQLite local, cola de operaciones pendientes y re-sincronización automática al recuperar red. Autenticación JWT con refresco automático de token, blacklist en logout y actualización forzada por versión mínima (HTTP 426). Layout adaptativo desktop/móvil.',
+          imageUrl: '',
+          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
           title: 'Semillero RV - Ambientes Inmersivos de Aprendizaje 🎓',
           description:
-            'Desarrollo de entornos 3D inmersivos para conservar espacios educativos (aula, laboratorio, edificio) y proyectar futuras construcciones en el Politécnico Colombiano Jaime Isaza Cadavid. Usa escaneo 3D, modelado (Unity/Blender), y VR. Actualmente implementado en VR Chat, con desarrollo futuro de motor propio en Unity para expandir funcionalidades. Busca innovación educativa y preservar patrimonio institucional. ¡El futuro de la educación está aquí! 👓',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgegrupo.jpg?raw=true', // Añade una imagen representativa del proyecto
+            '⚠️ Proyecto finalizado. Desarrollo de entornos 3D inmersivos para conservar espacios educativos (aula, laboratorio, edificio) y proyectar futuras construcciones en el Politécnico Colombiano Jaime Isaza Cadavid. Usó escaneo 3D, modelado con Unity/Blender e implementación en VR Chat. El proyecto no continuó debido a problemas con el área de investigación de la universidad que sostenía el semillero.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgegrupo.jpg?raw=true',
         },
         {
           title: 'Semillero RV - Objetivos y Metodología 🎯',
           description:
-            'Objetivos: Conservar digitalmente espacios existentes, proyectar futuros, mejorar accesibilidad educativa. Metodología: Investigación, Modelado, Implementación (inicialmente en VR Chat, luego motor propio en Unity), Evaluación con usuarios. ¡Un enfoque innovador! 🚀',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imggrupo.jpg?raw=true', // Añade una imagen de la metodología o un diagrama
+            '⚠️ Proyecto finalizado. Objetivos: conservar digitalmente espacios existentes, proyectar futuros, mejorar accesibilidad educativa. Metodología: Investigación, Modelado 3D, Implementación en VR Chat, Evaluación con usuarios. Se logró un prototipo funcional de campus virtual antes del cierre del semillero.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imggrupo.jpg?raw=true',
         },
         {
           title: 'Semillero RV - Resultados e Impacto 📈',
           description:
-            'Resultados: Colección digital de 3 entornos, prototipo de campus virtual (en VR Chat). Impacto: Enseñanza interactiva, acceso inclusivo, preservación digital, innovación tecnológica. ¡Transformando la educación! ✨',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgpresentacion.jpg?raw=true', // Añade una imagen de los resultados o del impacto del proyecto
+            '⚠️ Proyecto finalizado. Resultados obtenidos: colección digital de 3 entornos educativos y prototipo de campus virtual en VR Chat. Impacto alcanzado: enseñanza interactiva, acceso inclusivo a espacios físicos y preservación digital del patrimonio institucional.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgpresentacion.jpg?raw=true',
         },
         {
           title: 'Semillero RV - Detalles Técnicos ⚙️',
           description:
-            'Tecnologías: Realidad Virtual/Aumentada, Escaneo 3D, Modelado 3D (Unity, Blender), VR Chat (implementación actual), Unity (motor propio en desarrollo). Desafíos superados: Optimización de entornos VR. ¡Tecnología de vanguardia! 🛠️',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgmodels.jpg?raw=true', // Añade una imagen de las tecnologías utilizadas
+            '⚠️ Proyecto finalizado. Tecnologías utilizadas: Realidad Virtual/Aumentada, Escaneo 3D, Modelado 3D (Unity, Blender), VR Chat. Principal desafío superado: optimización de entornos VR para hardware accesible.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgmodels.jpg?raw=true',
         },
-        {
-          title: 'Semillero RV - Contexto y Futuro 🔭',
-          description:
-            'Problema: Pérdida de memoria institucional y poca accesibilidad a entornos innovadores. Futuro: Integrar IA para guías, preservar actividades pedagógicas, recrear espacios culturales, desarrollo de motor propio en Unity para mayor control y personalización. ¡Construyendo el mañana! 🌟',
-          imageUrl: '', // Añade una imagen del contexto o del futuro del proyecto
-        }
         // Otros proyectos
       ],
     },
@@ -104,7 +93,7 @@ const CONFIG = {
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'foxy_yts',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
@@ -125,21 +114,28 @@ const CONFIG = {
   },
   skills: [
   // Lenguajes de Programación 💻
-  'Python', 'Java', 'JavaScript', 'C++', 'C#',
+  'Python', 'Java', 'JavaScript', 'C++', 'C#', 'Dart',
   // Front-End 🎨
-  'HTML', 'CSS',
+  'HTML', 'CSS', 'Flutter',
   // Back-End ⚙️
-  'Node.js', 'PHP',
+  'Node.js', 'PHP', 'Django',
   // Bases de Datos 🗄️
   'MySQL', 'PostgreSQL', 'MongoDB',
   // Herramientas y Tecnologías 🛠️
-  'Git', 'Unity', 'Blender',
+  'Git', 'Unity', 'Blender', 'Cloudflare',
   // Metodologías 🗺️
   'Scrum',
   // Sistemas Operativos 🖥
-  'Linux(Ubuntu, Kali)', 'Windows'
+  'Linux(Ubuntu, Kali, Arch)', 'Windows'
   ],
   experiences: [
+    {
+      company: 'SGI LAB MANAGER',
+      position: 'Creador y Desarrollador Principal 🛠️',
+      from: 'Febrero 2024',
+      to: 'Presente',
+      companyLink: 'https://github.com/FoxyYTs/SGI',
+    },
     {
       company: 'Politécnico Colombiano Jaime Isaza Cadavid',
       position: 'Monitor de Laboratorio 🧪',
@@ -243,7 +239,7 @@ const CONFIG = {
     {
       institution: 'Institución Educativa Inem José Félix de Restrepo',
       degree: 'Bachiller en Media tecnica Informatica 🏫',
-      from: 'Febrero 2015"',
+      from: 'Febrero 2015',
       to: 'Diciembre 2020',
     },
   ],
