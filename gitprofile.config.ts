@@ -20,7 +20,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND', 'FoxyYTs/pensum-interactivo'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -77,6 +77,13 @@ const CONFIG = {
           description:
             '⚠️ Proyecto finalizado. Tecnologías utilizadas: Realidad Virtual/Aumentada, Escaneo 3D, Modelado 3D (Unity, Blender), VR Chat. Principal desafío superado: optimización de entornos VR para hardware accesible.',
           imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgmodels.jpg?raw=true',
+        },
+        {
+          title: 'Pensum Interactivo - Politécnico Colombiano JIC 🎓',
+          description:
+            'Malla curricular interactiva para todas las carreras de la sede Rionegro del Politécnico Colombiano Jaime Isaza Cadavid. Permite visualizar materias, prerrequisitos y el flujo del pensum de forma dinámica. Basado en un fork del proyecto de malla interactiva de un estudiante mexicano, adaptado a los pensums del Politécnico.',
+          imageUrl: '',
+          link: 'https://foxyyts.github.io/pensum-interactivo',
         },
         // Otros proyectos
       ],
