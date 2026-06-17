@@ -117,7 +117,7 @@ const CONFIG = {
     email: 'foxy200442@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1olYR87wFs1mOOySZDOzDRAvIBItwLcOJ/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1WJDMu-_4dG7YsA3YcKkEGoWmONs9Q5bA/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
   // Lenguajes de Programación 💻
