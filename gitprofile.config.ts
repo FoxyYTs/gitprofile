@@ -29,28 +29,28 @@ const CONFIG = {
         {
           title: 'SGI LAB MANAGER - Visión General 📊',
           description:
-            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Aplicación multi-plataforma en Flutter/Dart con backend en Django. Corre en Android, Web, Windows y Linux. Primera versión en producción. Roles: ADMIN, LAB, MONITOR, ESTUDIANTE con permisos en tiempo real.',
+            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). App multi-plataforma en Flutter/Dart con backend Django REST. Infraestructura propia: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 tests automatizados con pytest. En producción activa.',
           imageUrl: '',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
           title: 'SGI LAB MANAGER - Inventario y Seguridad Química ⚗️',
           description:
-            'Control de insumos (Implemento, Vidriería, Químico, Equipo) con semáforo visual de stock y filtros. Ficha GHS completa: pictogramas, rombo NFPA 704, frases H/P, EPP. Extracción automática desde PDF de FDS con IA (Groq/Llama). Generación de etiquetas GHS en PDF en 4 formatos.',
+            'Control de insumos (Implemento, Vidriería, Químico, Equipo) con semáforo de stock en tiempo real. Ficha GHS completa: pictogramas GHS01–GHS09, rombo NFPA 704, frases H/P, EPP. Extracción automática de FDS desde PDF con IA (Groq/Llama 3.1). Generación de etiquetas GHS en PDF en 4 formatos. Exportación a formato Colmena ARL.',
           imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imageweb.png?raw=true',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
           title: 'SGI LAB MANAGER - Préstamos, Horarios e Informes 📋',
           description:
-            'Flujo completo de préstamos (PENDIENTE → ACTIVO → DEVUELTO) con descuento de stock automático. Horario semanal Lun–Sáb con vistas de encargados y asignaturas. Informes en PDF y Excel: inventario, préstamos, horas monitor, prácticas docentes y más. Formularios públicos por QR sin login.',
+            'Flujo completo de préstamos (PENDIENTE → ACTIVO → DEVUELTO) con descuento de stock automático. Horario semanal Lun–Sáb con vistas de encargados y asignaturas. 6 tipos de informes en PDF. Formularios públicos por QR sin login para solicitudes, horas monitor y reportes de rotura.',
           imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imagepc.png?raw=true',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
-          title: 'SGI LAB MANAGER - Modo Offline y Seguridad 🔒',
+          title: 'SGI LAB MANAGER - Infraestructura y Seguridad 🔒',
           description:
-            'Modo offline en Android/Linux con SQLite local, cola de operaciones pendientes y re-sincronización automática al recuperar red. Autenticación JWT con refresco automático de token, blacklist en logout y actualización forzada por versión mínima (HTTP 426). Layout adaptativo desktop/móvil.',
+            'Modo offline con SQLite y cola de sincronización automática. JWT con refresco transparente y blacklist. Respaldos automáticos cifrados (pg_dump → gzip → GPG AES-256 → GitHub privado). Monitor de disponibilidad cada 5 min con alertas por Telegram. Cloudflare Zero Trust: ningún puerto expuesto directamente.',
           imageUrl: '',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
@@ -81,7 +81,7 @@ const CONFIG = {
         {
           title: 'Pensum Interactivo - Politécnico Colombiano JIC 🎓',
           description:
-            'Malla curricular interactiva para todas las carreras de la sede Rionegro del Politécnico Colombiano Jaime Isaza Cadavid. Permite visualizar materias, prerrequisitos y el flujo del pensum de forma dinámica. Basado en un fork del proyecto de malla interactiva de un estudiante mexicano, adaptado a los pensums del Politécnico.',
+            'Visualizador interactivo de pensum académico para las 8 carreras de la sede Rionegro del Politécnico Colombiano Jaime Isaza Cadavid. Grafo dirigido con D3.js: asignaturas, prerrequisitos, créditos y porcentaje de avance. PWA desplegada en GitHub Pages con CI/CD via GitHub Actions. Fork adaptado de un proyecto chileno de código abierto.',
           imageUrl: '',
           link: 'https://foxyyts.github.io/pensum-interactivo',
         },
@@ -129,7 +129,9 @@ const CONFIG = {
   // Bases de Datos 🗄️
   'MySQL', 'PostgreSQL', 'MongoDB',
   // Herramientas y Tecnologías 🛠️
-  'Git', 'Unity', 'Blender', 'Cloudflare',
+  'Git', 'Docker', 'Unity', 'Blender', 'Cloudflare',
+  // IA / LLMs 🤖
+  'Groq', 'Llama 3.1', 'Google Cloud TTS', 'Stitch',
   // Metodologías 🗺️
   'Scrum',
   // Sistemas Operativos 🖥
@@ -204,30 +206,6 @@ const CONFIG = {
       body: 'Certifica el conocimiento en los principios y prácticas de la Programación Orientada a Objetos.',
       year: 'Abril 2023',
       link: 'https://platzi.com/p/JoseDaza/curso/1474-course/diploma/detalle/',
-    },
-    {
-      name: 'Curso de Computación Básica 📚',
-      body: 'Certifica el conocimiento en los fundamentos de la computación.',
-      year: 'Febrero 2023',
-      link: 'https://platzi.com/p/JoseDaza/curso/2793-course/diploma/detalle/',
-    },
-    {
-      name: 'Curso de Introducción a Java SE 📖',
-      body: 'Certifica la introducción y conocimientos básicos del lenguaje de programación Java SE.',
-      year: 'Noviembre 2022',
-      link: 'https://platzi.com/p/JoseDaza/curso/1631-course/diploma/detalle/',
-    },
-    {
-      name: 'Curso de Prework: Configuración de Entorno de Desarrollo en Windows 💻',
-      body: 'Certifica la habilidad para configurar un entorno de desarrollo en el sistema operativo Windows.',
-      year: 'Diciembre 2021',
-      link: 'https://platzi.com/p/JoseDaza/curso/2042-course/diploma/detalle/',
-    },
-    {
-      name: 'Curso Básico de Python 🐍',
-      body: 'Certifica la introducción y conocimientos básicos del lenguaje de programación Python.',
-      year: 'Agosto 2021',
-      link: 'https://platzi.com/p/JoseDaza/curso/1937-course/diploma/detalle/',
     },
     {
       name: 'Curso de Creación de Videojuegos 🎮',
