@@ -30,28 +30,28 @@ const CONFIG = {
           title: 'SGI LAB MANAGER - Visión General 📊',
           description:
             'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). App multi-plataforma en Flutter/Dart con backend Django REST. Infraestructura propia: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 tests automatizados con pytest. En producción activa.',
-          imageUrl: '',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/02_dashboard.png',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
           title: 'SGI LAB MANAGER - Inventario y Seguridad Química ⚗️',
           description:
             'Control de insumos (Implemento, Vidriería, Químico, Equipo) con semáforo de stock en tiempo real. Ficha GHS completa: pictogramas GHS01–GHS09, rombo NFPA 704, frases H/P, EPP. Extracción automática de FDS desde PDF con IA (Groq/Llama 3.1). Generación de etiquetas GHS en PDF en 4 formatos. Exportación a formato Colmena ARL.',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imageweb.png?raw=true',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/04_ficha_sga.png',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
           title: 'SGI LAB MANAGER - Préstamos, Horarios e Informes 📋',
           description:
-            'Flujo completo de préstamos (PENDIENTE → ACTIVO → DEVUELTO) con descuento de stock automático. Horario semanal Lun–Sáb con vistas de encargados y asignaturas. 6 tipos de informes en PDF. Formularios públicos por QR sin login para solicitudes, horas monitor y reportes de rotura.',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imagepc.png?raw=true',
+            'Flujo completo de préstamos (PENDIENTE → ACTIVO → DEVUELTO) con descuento de stock automático. Horario semanal Lun–Sáb con vistas de encargados y asignaturas. 6 tipos de informes en PDF y Excel. Formularios públicos por QR sin login para solicitudes, horas monitor y reportes de rotura.',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/08_informes.png',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
           title: 'SGI LAB MANAGER - Infraestructura y Seguridad 🔒',
           description:
             'Modo offline con SQLite y cola de sincronización automática. JWT con refresco transparente y blacklist. Respaldos automáticos cifrados (pg_dump → gzip → GPG AES-256 → GitHub privado). Monitor de disponibilidad cada 5 min con alertas por Telegram. Cloudflare Zero Trust: ningún puerto expuesto directamente.',
-          imageUrl: '',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/03_inventario.png',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
@@ -143,7 +143,7 @@ const CONFIG = {
       position: 'Creador y Desarrollador Principal 🛠️',
       from: 'Febrero 2024',
       to: 'Presente',
-      companyLink: 'https://github.com/FoxyYTs/SGI',
+      companyLink: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
     },
     {
       company: 'Politécnico Colombiano Jaime Isaza Cadavid',
@@ -223,7 +223,7 @@ const CONFIG = {
     },
     {
       institution: 'Institución Educativa Inem José Félix de Restrepo',
-      degree: 'Bachiller en Media tecnica Informatica 🏫',
+      degree: 'Técnico en Programación 🏫',
       from: 'Febrero 2015',
       to: 'Diciembre 2020',
     },
