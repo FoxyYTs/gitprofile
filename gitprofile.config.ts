@@ -28,9 +28,9 @@ const CONFIG_ES = {
         {
           title: 'SGI LAB MANAGER - Visión General 📊',
           description:
-            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). App multi-plataforma en Flutter/Dart con backend Django REST. Infraestructura propia: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 tests automatizados con pytest. En producción activa.',
+            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). App multi-plataforma en Flutter/Dart con backend Django REST. Infraestructura propia: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 tests automatizados con pytest. En producción activa — las cuentas nuevas ingresan con rol Estudiante.',
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/02_dashboard.png',
-          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+          link: 'https://sgilabmanager.foxyyts.qzz.io',
         },
         {
           title: 'SGI LAB MANAGER - Inventario y Seguridad Química ⚗️',
@@ -54,28 +54,10 @@ const CONFIG_ES = {
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
-          title: 'Semillero RV - Ambientes Inmersivos de Aprendizaje 🎓',
+          title: 'Semillero de Ambientes Inmersivos de Aprendizaje — RV 🥽',
           description:
-            '⚠️ Proyecto finalizado. Desarrollo de entornos 3D inmersivos para conservar espacios educativos (aula, laboratorio, edificio) y proyectar futuras construcciones en el Politécnico Colombiano Jaime Isaza Cadavid. Usó escaneo 3D, modelado con Unity/Blender e implementación en VR Chat. El proyecto no continuó debido a problemas con el área de investigación de la universidad que sostenía el semillero.',
+            'Proyecto finalizado (2023–2025). Semillero de investigación en el Politécnico Colombiano Jaime Isaza Cadavid enfocado en entornos 3D inmersivos para preservar y proyectar espacios educativos. Se desarrolló un prototipo de campus virtual en VRChat con Meta Quest 2, incluyendo el modelado completo del Bloque R27 junto a estudiantes de Ingeniería Civil. Los activos generados son la base del actual proyecto Laboratorio Virtual VR. Tecnologías: Unity, Blender, escaneo 3D, VRChat, OpenXR.',
           imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgegrupo.jpg?raw=true',
-        },
-        {
-          title: 'Semillero RV - Objetivos y Metodología 🎯',
-          description:
-            '⚠️ Proyecto finalizado. Objetivos: conservar digitalmente espacios existentes, proyectar futuros, mejorar accesibilidad educativa. Metodología: Investigación, Modelado 3D, Implementación en VR Chat, Evaluación con usuarios. Se logró un prototipo funcional de campus virtual antes del cierre del semillero.',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imggrupo.jpg?raw=true',
-        },
-        {
-          title: 'Semillero RV - Resultados e Impacto 📈',
-          description:
-            '⚠️ Proyecto finalizado. Resultados obtenidos: colección digital de 3 entornos educativos y prototipo de campus virtual en VR Chat. Impacto alcanzado: enseñanza interactiva, acceso inclusivo a espacios físicos y preservación digital del patrimonio institucional.',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgpresentacion.jpg?raw=true',
-        },
-        {
-          title: 'Semillero RV - Detalles Técnicos ⚙️',
-          description:
-            '⚠️ Proyecto finalizado. Tecnologías utilizadas: Realidad Virtual/Aumentada, Escaneo 3D, Modelado 3D (Unity, Blender), VR Chat. Principal desafío superado: optimización de entornos VR para hardware accesible.',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgmodels.jpg?raw=true',
         },
         {
           title: 'Pensum Interactivo - Politécnico Colombiano JIC 🎓',
@@ -268,9 +250,9 @@ const CONFIG_EN = {
         {
           title: 'SGI LAB MANAGER - Overview 📊',
           description:
-            'Full-featured lab management system for Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Cross-platform app in Flutter/Dart with Django REST backend. Own infrastructure: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 automated tests with pytest. Currently in active production.',
+            'Full-featured lab management system for Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Cross-platform app in Flutter/Dart with Django REST backend. Own infrastructure: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 automated tests with pytest. Live in production — new accounts start with Student role.',
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/02_dashboard.png',
-          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+          link: 'https://sgilabmanager.foxyyts.qzz.io',
         },
         {
           title: 'SGI LAB MANAGER - Inventory & Chemical Safety ⚗️',
@@ -294,28 +276,10 @@ const CONFIG_EN = {
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
         },
         {
-          title: 'VR Research Group - Immersive Learning Environments 🎓',
+          title: 'Immersive Learning Environments Research Group — VR 🥽',
           description:
-            '⚠️ Project concluded. Development of 3D immersive environments to preserve educational spaces (classroom, lab, building) and project future constructions at Politécnico Colombiano Jaime Isaza Cadavid. Used 3D scanning, Unity/Blender modeling, and VRChat deployment. The project was discontinued due to loss of institutional research support.',
+            'Concluded project (2023–2025). Research group at Politécnico Colombiano Jaime Isaza Cadavid focused on 3D immersive environments for preserving and projecting educational spaces. Delivered a functional virtual campus prototype in VRChat with Meta Quest 2, including full 3D modeling of Bloque R27 alongside Civil Engineering students. The assets produced serve as the foundation for the ongoing Virtual VR Laboratory project. Technologies: Unity, Blender, 3D scanning, VRChat, OpenXR.',
           imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgegrupo.jpg?raw=true',
-        },
-        {
-          title: 'VR Research Group - Goals & Methodology 🎯',
-          description:
-            '⚠️ Project concluded. Goals: digitally preserve existing spaces, project future ones, improve educational accessibility. Methodology: Research, 3D Modeling, VRChat deployment, user evaluation. A functional virtual campus prototype was achieved before the group was disbanded.',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imggrupo.jpg?raw=true',
-        },
-        {
-          title: 'VR Research Group - Results & Impact 📈',
-          description:
-            '⚠️ Project concluded. Results: digital collection of 3 educational environments and a virtual campus prototype in VRChat. Impact: interactive learning, inclusive access to physical spaces, and digital preservation of institutional heritage.',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgpresentacion.jpg?raw=true',
-        },
-        {
-          title: 'VR Research Group - Technical Details ⚙️',
-          description:
-            '⚠️ Project concluded. Technologies: Virtual/Augmented Reality, 3D Scanning, 3D Modeling (Unity, Blender), VRChat. Main challenge overcome: optimizing VR environments for accessible consumer hardware.',
-          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgmodels.jpg?raw=true',
         },
         {
           title: 'Interactive Academic Curriculum — PCJIC 🎓',
