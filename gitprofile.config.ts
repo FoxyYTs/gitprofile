@@ -82,7 +82,7 @@ const CONFIG = {
           title: 'Pensum Interactivo - Politécnico Colombiano JIC 🎓',
           description:
             'Visualizador interactivo de pensum académico para las 8 carreras de la sede Rionegro del Politécnico Colombiano Jaime Isaza Cadavid. Grafo dirigido con D3.js: asignaturas, prerrequisitos, créditos y porcentaje de avance. PWA desplegada en GitHub Pages con CI/CD via GitHub Actions. Fork adaptado de un proyecto chileno de código abierto.',
-          imageUrl: '',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/pensum-interactivo/main/docs/preview.png',
           link: 'https://foxyyts.github.io/pensum-interactivo',
         },
         // Otros proyectos
@@ -91,7 +91,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portafolio de Jose Andres Daza Gallego',
-    description:'Portafolio personal de Jose Andres Daza Gallego, estudiante de Ingeniería Informática con experiencia en desarrollo web, desarrollo móvil, data science, devops y realidad virtual.',
+    description: 'Portafolio personal de Jose Andres Daza Gallego, estudiante de Ingeniería Informática con experiencia en desarrollo web, desarrollo móvil, data science, devops y realidad virtual.',
     imageURL: '',
   },
   social: {
@@ -110,7 +110,7 @@ const CONFIG = {
     medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    discord: 'foxyyts',
     telegram: 'FoxyYTs',
     website: '',
     phone: '',
@@ -258,10 +258,7 @@ const CONFIG = {
     id: 'G-5NPY5MX45W', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'dark',
 
@@ -310,19 +307,11 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
+      'caramellatte',
+      'abyss',
+      'silk',
       'procyon',
     ],
-
-    // Custom theme, applied to `procyon` theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
   },
 
   // Optional Footer. Supports plain text or HTML.
