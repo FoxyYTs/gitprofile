@@ -46,11 +46,11 @@ function App() {
         onMouseEnter={e => (e.currentTarget.style.opacity = '0.85')}
         onMouseLeave={e => (e.currentTarget.style.opacity = '1')}
       >
-        <span style={{ fontSize: '1rem' }}>{lang === 'es' ? '🇨🇴' : '🇺🇸'}</span>
+        <span style={{ fontSize: '1rem' }}>{lang === 'es' ? '🇪🇸' : '🇺🇸'}</span>
         {lang === 'es' ? 'ES' : 'EN'}
         <span style={{ opacity: 0.5, fontSize: '0.75rem' }}>→ {lang === 'es' ? 'EN' : 'ES'}</span>
       </button>
-      <GitProfile config={lang === 'es' ? CONFIG_ES : CONFIG_EN} />
+      <GitProfile key={lang} config={lang === 'es' ? CONFIG_ES : CONFIG_EN} />
     </>
   );
 }
