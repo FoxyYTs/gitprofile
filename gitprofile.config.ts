@@ -1,26 +1,25 @@
 // gitprofile.config.ts
 
-const CONFIG = {
+const CONFIG_ES = {
   github: {
-    username: 'FoxyYTs', // Your GitHub org/user name. (This is the only required config)
+    username: 'FoxyYTs',
   },
   base: '/gitprofile/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: true,
       header: 'Proyectos de GitHub 🚀',
-      mode: 'manual', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual',
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 6, // How many projects to display.
+        sortBy: 'stars',
+        limit: 6,
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false,
+          projects: [],
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND', 'FoxyYTs/pensum-interactivo'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND', 'FoxyYTs/pensum-interactivo'],
       },
     },
     external: {
@@ -85,7 +84,6 @@ const CONFIG = {
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/pensum-interactivo/main/docs/preview.png',
           link: 'https://foxyyts.github.io/pensum-interactivo',
         },
-        // Otros proyectos
       ],
     },
   },
@@ -103,13 +101,13 @@ const CONFIG = {
     instagram: 'foxy_yts',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '',
     discord: 'foxyyts',
     telegram: 'FoxyYTs',
     website: '',
@@ -117,25 +115,17 @@ const CONFIG = {
     email: 'foxy200442@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1WJDMu-_4dG7YsA3YcKkEGoWmONs9Q5bA/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1WJDMu-_4dG7YsA3YcKkEGoWmONs9Q5bA/view?usp=sharing',
   },
   skills: [
-  // Lenguajes de Programación 💻
-  'Python', 'Java', 'JavaScript', 'C++', 'C#', 'Dart',
-  // Front-End 🎨
-  'HTML', 'CSS', 'Flutter',
-  // Back-End ⚙️
-  'Node.js', 'PHP', 'Django',
-  // Bases de Datos 🗄️
-  'MySQL', 'PostgreSQL', 'MongoDB',
-  // Herramientas y Tecnologías 🛠️
-  'Git', 'Docker', 'Unity', 'Blender', 'Cloudflare',
-  // IA / LLMs 🤖
-  'Groq', 'Llama 3.1', 'Google Cloud TTS', 'Stitch',
-  // Metodologías 🗺️
-  'Scrum',
-  // Sistemas Operativos 🖥
-  'Linux(Ubuntu, Kali, Arch)', 'Windows'
+    'Python', 'Java', 'JavaScript', 'C++', 'C#', 'Dart',
+    'HTML', 'CSS', 'Flutter',
+    'Node.js', 'PHP', 'Django',
+    'MySQL', 'PostgreSQL', 'MongoDB',
+    'Git', 'Docker', 'Unity', 'Blender', 'Cloudflare',
+    'Groq', 'Llama 3.1', 'Google Cloud TTS', 'Stitch',
+    'Scrum',
+    'Linux(Ubuntu, Kali, Arch)', 'Windows',
   ],
   experiences: [
     {
@@ -168,7 +158,7 @@ const CONFIG = {
     },
     {
       name: 'Linux Essentials',
-      body: 'certificación Linux Essentials del Linux Professional Institute.',
+      body: 'Certificación Linux Essentials del Linux Professional Institute.',
       year: 'Noviembre 2025',
       link: 'https://www.credly.com/badges/8cdf2b90-6313-418f-b203-78ab6e55f9aa',
     },
@@ -191,8 +181,8 @@ const CONFIG = {
       link: 'https://ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
     },
     {
-      name: 'Bootcamp Devops Project Lab',
-      body: 'Certifica la participación en el Bootcamp Devops Project Lab, impartido por Softserve, con enfoque en la práctica de proyectos DevOps.',
+      name: 'Bootcamp DevOps Project Lab',
+      body: 'Certifica la participación en el Bootcamp DevOps Project Lab, impartido por SoftServe, con enfoque en la práctica de proyectos DevOps.',
       year: 'Marzo - Junio 2025',
     },
     {
@@ -228,100 +218,266 @@ const CONFIG = {
       to: 'Diciembre 2020',
     },
   ],
-  // publications: [
-  //   {
-  //     title: 'Publication Title',
-  //     conferenceName: '',
-  //     journalName: 'Journal Name',
-  //     authors: 'John Doe, Jane Smith',
-  //     link: 'https://example.com',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  //   },
-  //   {
-  //     title: 'Publication Title',
-  //     conferenceName: 'Conference Name',
-  //     journalName: '',
-  //     authors: 'John Doe, Jane Smith',
-  //     link: 'https://example.com',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  //   },
-  // ],
-  // Display articles from your medium or dev account. (Optional)
-  // blog: {
-  //   source: 'dev', // medium | dev
-  //   username: 'arifszn', // to hide blog section, keep it empty
-  //   limit: 2, // How many articles to display. Max is 10.
-  // },
   googleAnalytics: {
-    id: 'G-5NPY5MX45W', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-5NPY5MX45W',
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'dark',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'caramellatte',
-      'abyss',
-      'silk',
-      'procyon',
+      'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate',
+      'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden',
+      'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black',
+      'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade',
+      'night', 'coffee', 'winter', 'dim', 'nord', 'sunset', 'caramellatte',
+      'abyss', 'silk', 'procyon',
     ],
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Hecho con <a
-        class="text-primary" href="https://github.com/arifszn/gitprofile"
-        target="_blank"
-        rel="noreferrer"
-      >GitProfile</a> y ❤️`,
-
+  footer: `Hecho con <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a> y ❤️`,
   enablePWA: true,
 };
 
-export default CONFIG;
+const CONFIG_EN = {
+  github: {
+    username: 'FoxyYTs',
+  },
+  base: '/gitprofile/',
+  projects: {
+    github: {
+      display: true,
+      header: 'GitHub Projects 🚀',
+      mode: 'manual',
+      automatic: {
+        sortBy: 'stars',
+        limit: 6,
+        exclude: {
+          forks: false,
+          projects: [],
+        },
+      },
+      manual: {
+        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND', 'FoxyYTs/pensum-interactivo'],
+      },
+    },
+    external: {
+      header: 'My Projects ✨',
+      projects: [
+        {
+          title: 'SGI LAB MANAGER - Overview 📊',
+          description:
+            'Full-featured lab management system for Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Cross-platform app in Flutter/Dart with Django REST backend. Own infrastructure: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 automated tests with pytest. Currently in active production.',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/02_dashboard.png',
+          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+        },
+        {
+          title: 'SGI LAB MANAGER - Inventory & Chemical Safety ⚗️',
+          description:
+            'Supply control (Tools, Glassware, Chemicals, Equipment) with real-time stock traffic light. Full GHS sheet: GHS01–GHS09 pictograms, NFPA 704 diamond, H/P phrases, PPE. Automatic SDS extraction from PDF using AI (Groq/Llama 3.1). GHS label generation in PDF across 4 formats. Export to Colmena ARL format.',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/04_ficha_sga.png',
+          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+        },
+        {
+          title: 'SGI LAB MANAGER - Loans, Schedules & Reports 📋',
+          description:
+            'Full loan workflow (PENDING → ACTIVE → RETURNED) with automatic stock deduction. Weekly schedule Mon–Sat with lab staff and subject views. 6 report types in PDF and Excel. Public QR forms (no login) for loan requests, monitor hours, and breakage reports.',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/08_informes.png',
+          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+        },
+        {
+          title: 'SGI LAB MANAGER - Infrastructure & Security 🔒',
+          description:
+            'Offline mode with SQLite and automatic sync queue. Transparent JWT refresh with blacklist. Automated encrypted backups (pg_dump → gzip → GPG AES-256 → private GitHub). Availability monitor every 5 min with Telegram alerts. Cloudflare Zero Trust: no ports exposed directly.',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/03_inventario.png',
+          link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+        },
+        {
+          title: 'VR Research Group - Immersive Learning Environments 🎓',
+          description:
+            '⚠️ Project concluded. Development of 3D immersive environments to preserve educational spaces (classroom, lab, building) and project future constructions at Politécnico Colombiano Jaime Isaza Cadavid. Used 3D scanning, Unity/Blender modeling, and VRChat deployment. The project was discontinued due to loss of institutional research support.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgegrupo.jpg?raw=true',
+        },
+        {
+          title: 'VR Research Group - Goals & Methodology 🎯',
+          description:
+            '⚠️ Project concluded. Goals: digitally preserve existing spaces, project future ones, improve educational accessibility. Methodology: Research, 3D Modeling, VRChat deployment, user evaluation. A functional virtual campus prototype was achieved before the group was disbanded.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imggrupo.jpg?raw=true',
+        },
+        {
+          title: 'VR Research Group - Results & Impact 📈',
+          description:
+            '⚠️ Project concluded. Results: digital collection of 3 educational environments and a virtual campus prototype in VRChat. Impact: interactive learning, inclusive access to physical spaces, and digital preservation of institutional heritage.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgpresentacion.jpg?raw=true',
+        },
+        {
+          title: 'VR Research Group - Technical Details ⚙️',
+          description:
+            '⚠️ Project concluded. Technologies: Virtual/Augmented Reality, 3D Scanning, 3D Modeling (Unity, Blender), VRChat. Main challenge overcome: optimizing VR environments for accessible consumer hardware.',
+          imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgmodels.jpg?raw=true',
+        },
+        {
+          title: 'Interactive Academic Curriculum — PCJIC 🎓',
+          description:
+            'Interactive academic curriculum visualizer for all 8 degree programs at the Rionegro campus of Politécnico Colombiano Jaime Isaza Cadavid. Directed graph with D3.js: courses, prerequisites, credits, and completion percentage with localStorage persistence. PWA deployed on GitHub Pages with CI/CD via GitHub Actions. Adapted fork of a Chilean open-source project.',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/pensum-interactivo/main/docs/preview.png',
+          link: 'https://foxyyts.github.io/pensum-interactivo',
+        },
+      ],
+    },
+  },
+  seo: {
+    title: 'Portfolio — Jose Andres Daza Gallego',
+    description: 'Personal portfolio of Jose Andres Daza Gallego, Computer Engineering student with experience in web development, mobile development, DevOps, server administration, and virtual reality.',
+    imageURL: '',
+  },
+  social: {
+    linkedin: 'jose-andres-daza-gallego',
+    x: 'FoxyYTs',
+    mastodon: '',
+    researchGate: '',
+    facebook: '',
+    instagram: 'foxy_yts',
+    reddit: '',
+    threads: '',
+    youtube: '',
+    udemy: '',
+    dribbble: '',
+    behance: '',
+    medium: '',
+    dev: '',
+    stackoverflow: '',
+    discord: 'foxyyts',
+    telegram: 'FoxyYTs',
+    website: '',
+    phone: '',
+    email: 'foxy200442@gmail.com',
+  },
+  resume: {
+    fileUrl: 'https://drive.google.com/file/d/1AQEI4ZM9KXzf5nJpip5j96s7Ekj67veG/view?usp=sharing',
+  },
+  skills: [
+    'Python', 'Java', 'JavaScript', 'C++', 'C#', 'Dart',
+    'HTML', 'CSS', 'Flutter',
+    'Node.js', 'PHP', 'Django',
+    'MySQL', 'PostgreSQL', 'MongoDB',
+    'Git', 'Docker', 'Unity', 'Blender', 'Cloudflare',
+    'Groq', 'Llama 3.1', 'Google Cloud TTS', 'Stitch',
+    'Scrum',
+    'Linux(Ubuntu, Kali, Arch)', 'Windows',
+  ],
+  experiences: [
+    {
+      company: 'SGI LAB MANAGER',
+      position: 'Creator & Lead Developer 🛠️',
+      from: 'February 2024',
+      to: 'Present',
+      companyLink: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+    },
+    {
+      company: 'Politécnico Colombiano Jaime Isaza Cadavid',
+      position: 'Laboratory Monitor 🧪',
+      from: 'February 2024',
+      to: 'Present',
+      companyLink: 'https://www.politecnicojic.edu.co/',
+    },
+    {
+      company: 'Politécnico Colombiano Jaime Isaza Cadavid',
+      position: 'Lab Server Administrator & Creator 🌐',
+      from: 'January 2024',
+      to: 'Present',
+      companyLink: 'https://www.politecnicojic.edu.co/',
+    },
+  ],
+  certifications: [
+    {
+      name: 'MongoDB for SQL Professionals',
+      year: 'November 2025',
+      link: 'https://learn.mongodb.com/c/r0Q-OyvpRNa1u05RIrvIog',
+    },
+    {
+      name: 'Linux Essentials',
+      body: 'Linux Essentials certification by the Linux Professional Institute.',
+      year: 'November 2025',
+      link: 'https://www.credly.com/badges/8cdf2b90-6313-418f-b203-78ab6e55f9aa',
+    },
+    {
+      name: 'Django Course 💻',
+      body: 'Certifies knowledge in web development with the Django framework.',
+      year: 'August 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/9574-course/diploma/detalle/',
+    },
+    {
+      name: 'Python Course 🐍',
+      body: 'Certifies knowledge and participation in the Python course.',
+      year: 'August 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/1104-course/diploma/detalle/',
+    },
+    {
+      name: 'Certified Kubernetes Administrator (CKA) ☁️',
+      body: 'Demonstrates skills in Kubernetes administration, the leading container orchestration platform.',
+      year: 'April 2025',
+      link: 'https://ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
+    },
+    {
+      name: 'DevOps Project Lab Bootcamp',
+      body: 'Certifies participation in the DevOps Project Lab Bootcamp by SoftServe, focused on hands-on DevOps projects.',
+      year: 'March - June 2025',
+    },
+    {
+      name: 'Java SE Object-Oriented Programming ☕',
+      body: 'Certifies knowledge in Java SE with a focus on Object-Oriented Programming.',
+      year: 'September 2023',
+      link: 'https://platzi.com/p/JoseDaza/curso/1629-course/diploma/detalle/',
+    },
+    {
+      name: 'Object-Oriented Programming Course 🧩',
+      body: 'Certifies knowledge of the principles and practices of Object-Oriented Programming.',
+      year: 'April 2023',
+      link: 'https://platzi.com/p/JoseDaza/curso/1474-course/diploma/detalle/',
+    },
+    {
+      name: 'Game Development Course 🎮',
+      body: 'Certifies the ability to create video games.',
+      year: 'January 2021',
+      link: 'https://platzi.com/p/JoseDaza/curso/1062-course/diploma/detalle/',
+    },
+  ],
+  educations: [
+    {
+      institution: 'Politécnico Colombiano Jaime Isaza Cadavid',
+      degree: 'B.Eng. in Computer Engineering 🎓',
+      from: 'August 2022',
+      to: 'Present (8th Semester)',
+    },
+    {
+      institution: 'I.E. INEM José Félix de Restrepo',
+      degree: 'Technical High School Diploma in Programming 🏫',
+      from: 'February 2015',
+      to: 'December 2020',
+    },
+  ],
+  googleAnalytics: {
+    id: 'G-5NPY5MX45W',
+  },
+  hotjar: { id: '', snippetVersion: 6 },
+  themeConfig: {
+    defaultTheme: 'dark',
+    disableSwitch: false,
+    respectPrefersColorScheme: false,
+    displayAvatarRing: true,
+    themes: [
+      'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate',
+      'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden',
+      'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black',
+      'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade',
+      'night', 'coffee', 'winter', 'dim', 'nord', 'sunset', 'caramellatte',
+      'abyss', 'silk', 'procyon',
+    ],
+  },
+  footer: `Made with <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a> and ❤️`,
+  enablePWA: true,
+};
+
+export { CONFIG_ES, CONFIG_EN };

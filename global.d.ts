@@ -399,3 +399,5 @@ interface Config {
 }
 
 declare const CONFIG: Config;
+declare const CONFIG_ES: Config;
+declare const CONFIG_EN: Config;

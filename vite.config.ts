@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
-import CONFIG from './gitprofile.config';
+import { CONFIG_ES, CONFIG_EN } from './gitprofile.config';
+const CONFIG = CONFIG_ES;
 import { createHtmlPlugin } from 'vite-plugin-html';
 
 // https://vitejs.dev/config/
@@ -54,5 +55,7 @@ export default defineConfig({
   ],
   define: {
     CONFIG: CONFIG,
+    CONFIG_ES: CONFIG_ES,
+    CONFIG_EN: CONFIG_EN,
   },
 });
