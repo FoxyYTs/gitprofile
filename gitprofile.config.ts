@@ -63,7 +63,7 @@ const CONFIG_ES = {
           title: 'Pensum Interactivo - Politécnico Colombiano JIC 🎓',
           description:
             'Visualizador interactivo de pensum académico para las 8 carreras de la sede Rionegro del Politécnico Colombiano Jaime Isaza Cadavid. Grafo dirigido con D3.js: asignaturas, prerrequisitos, créditos y porcentaje de avance. PWA desplegada en GitHub Pages con CI/CD via GitHub Actions. Fork adaptado de un proyecto chileno de código abierto.',
-          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/pensum-interactivo/main/docs/preview.png',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/pensum-interactivo/master/docs/preview.png',
           link: 'https://foxyyts.github.io/pensum-interactivo',
         },
       ],
@@ -285,7 +285,7 @@ const CONFIG_EN = {
           title: 'Interactive Academic Curriculum — PCJIC 🎓',
           description:
             'Interactive academic curriculum visualizer for all 8 degree programs at the Rionegro campus of Politécnico Colombiano Jaime Isaza Cadavid. Directed graph with D3.js: courses, prerequisites, credits, and completion percentage with localStorage persistence. PWA deployed on GitHub Pages with CI/CD via GitHub Actions. Adapted fork of a Chilean open-source project.',
-          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/pensum-interactivo/main/docs/preview.png',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/pensum-interactivo/master/docs/preview.png',
           link: 'https://foxyyts.github.io/pensum-interactivo',
         },
       ],
