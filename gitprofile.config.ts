@@ -137,11 +137,13 @@ const CONFIG_ES = {
       name: 'Curso de Git y GitHub 🌿',
       body: 'Certifica el conocimiento en el manejo de Git y GitHub para control de versiones y flujos de trabajo colaborativos.',
       year: 'Diciembre 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/11059-course/diploma/detalle/',
     },
     {
       name: 'Curso de Fundamentos de Ingeniería de Software',
       body: 'Certifica el conocimiento en fundamentos, principios y buenas prácticas de la Ingeniería de Software.',
       year: 'Diciembre 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/11997-course/diploma/detalle/',
     },
     {
       name: 'MongoDB for SQL Professionals',
@@ -369,11 +371,13 @@ const CONFIG_EN = {
       name: 'Git & GitHub Course 🌿',
       body: 'Certifies knowledge in Git and GitHub for version control and collaborative workflows.',
       year: 'December 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/11059-course/diploma/detalle/',
     },
     {
       name: 'Software Engineering Fundamentals Course',
       body: 'Certifies knowledge of the fundamentals, principles and best practices of Software Engineering.',
       year: 'December 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/11997-course/diploma/detalle/',
     },
     {
       name: 'MongoDB for SQL Professionals',
