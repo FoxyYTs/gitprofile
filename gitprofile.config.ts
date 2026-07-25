@@ -134,6 +134,16 @@ const CONFIG_ES = {
   ],
   certifications: [
     {
+      name: 'Curso de Git y GitHub 🌿',
+      body: 'Certifica el conocimiento en el manejo de Git y GitHub para control de versiones y flujos de trabajo colaborativos.',
+      year: 'Diciembre 2025',
+    },
+    {
+      name: 'Curso de Fundamentos de Ingeniería de Software',
+      body: 'Certifica el conocimiento en fundamentos, principios y buenas prácticas de la Ingeniería de Software.',
+      year: 'Diciembre 2025',
+    },
+    {
       name: 'MongoDB for SQL Professionals',
       year: 'Noviembre 2025',
       link: 'https://learn.mongodb.com/c/r0Q-OyvpRNa1u05RIrvIog',
@@ -163,9 +173,9 @@ const CONFIG_ES = {
       link: 'https://ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
     },
     {
-      name: 'Bootcamp DevOps Project Lab',
-      body: 'Certifica la participación en el Bootcamp DevOps Project Lab, impartido por SoftServe, con enfoque en la práctica de proyectos DevOps.',
-      year: 'Marzo - Junio 2025',
+      name: 'PL DEVOPS — SoftServe Academy',
+      body: 'Certifica la finalización del curso PL DEVOPS impartido por SoftServe Academy. Serie UD № 25042/2025.',
+      year: 'Junio 2025',
     },
     {
       name: 'Curso de Java SE Orientado a Objetos ☕',
@@ -356,6 +366,16 @@ const CONFIG_EN = {
   ],
   certifications: [
     {
+      name: 'Git & GitHub Course 🌿',
+      body: 'Certifies knowledge in Git and GitHub for version control and collaborative workflows.',
+      year: 'December 2025',
+    },
+    {
+      name: 'Software Engineering Fundamentals Course',
+      body: 'Certifies knowledge of the fundamentals, principles and best practices of Software Engineering.',
+      year: 'December 2025',
+    },
+    {
       name: 'MongoDB for SQL Professionals',
       year: 'November 2025',
       link: 'https://learn.mongodb.com/c/r0Q-OyvpRNa1u05RIrvIog',
@@ -385,9 +405,9 @@ const CONFIG_EN = {
       link: 'https://ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
     },
     {
-      name: 'DevOps Project Lab Bootcamp',
-      body: 'Certifies participation in the DevOps Project Lab Bootcamp by SoftServe, focused on hands-on DevOps projects.',
-      year: 'March - June 2025',
+      name: 'PL DEVOPS — SoftServe Academy',
+      body: 'Certifies completion of the PL DEVOPS course by SoftServe Academy. Series UD № 25042/2025.',
+      year: 'June 2025',
     },
     {
       name: 'Java SE Object-Oriented Programming ☕',
