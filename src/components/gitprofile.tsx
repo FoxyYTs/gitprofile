@@ -204,12 +204,14 @@ const GitProfile = ({ config }: { config: Config }) => {
                     loading={loading}
                     avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
                     resumeFileUrl={sanitizedConfig.resume.fileUrl}
+                    resumeButtonLabel={sanitizedConfig.i18n.resumeButton}
                   />
                   <DetailsCard
                     profile={profile}
                     loading={loading}
                     github={sanitizedConfig.github}
                     social={sanitizedConfig.social}
+                    i18n={sanitizedConfig.i18n}
                   />
                   {sanitizedConfig.skills.length !== 0 && (
                     <SkillCard

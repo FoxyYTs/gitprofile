@@ -311,6 +311,14 @@ interface ThemeConfig {
   themes?: Array<string>;
 }
 
+interface I18n {
+  resumeButton?: string;
+  basedIn?: string;
+  organization?: string;
+  website?: string;
+  phone?: string;
+}
+
 interface Config {
   /**
    * GitHub config
@@ -396,6 +404,11 @@ interface Config {
    * Enable PWA
    */
   enablePWA?: boolean;
+
+  /**
+   * UI label translations
+   */
+  i18n?: I18n;
 }
 
 declare const CONFIG: Config;

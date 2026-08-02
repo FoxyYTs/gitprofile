@@ -124,6 +124,14 @@ export interface SanitizedThemeConfig {
   themes: Array<string>;
 }
 
+export interface SanitizedI18n {
+  resumeButton: string;
+  basedIn: string;
+  organization: string;
+  website: string;
+  phone: string;
+}
+
 export interface SanitizedConfig {
   github: SanitizedGithub;
   projects: SanitizedProjects;
@@ -139,6 +147,7 @@ export interface SanitizedConfig {
   hotjar: SanitizedHotjar;
   blog: SanitizedBlog;
   themeConfig: SanitizedThemeConfig;
+  i18n: SanitizedI18n;
   footer?: string;
   enablePWA: boolean;
 }

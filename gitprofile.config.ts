@@ -28,7 +28,7 @@ const CONFIG_ES = {
         {
           title: 'SGI LAB MANAGER - Visión General 📊',
           description:
-            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). App multi-plataforma en Flutter/Dart con backend Django REST. Infraestructura propia: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 tests automatizados con pytest. En producción activa — las cuentas nuevas ingresan con rol Estudiante.',
+            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). App multi-plataforma en Flutter/Dart con backend Django REST. Infraestructura propia: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 92 tests Django · 71 pytest e2e · 22 Flutter e2e. v1.0 estable (jun 2026) · en producción activa.',
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/02_dashboard.png',
           link: 'https://sgilabmanager.foxyyts.qzz.io',
         },
@@ -100,19 +100,20 @@ const CONFIG_ES = {
     fileUrl: 'https://drive.google.com/file/d/1WJDMu-_4dG7YsA3YcKkEGoWmONs9Q5bA/view?usp=sharing',
   },
   skills: [
-    'Python', 'Java', 'JavaScript', 'C++', 'C#', 'Dart',
+    'Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Dart',
     'HTML', 'CSS', 'Flutter',
     'Node.js', 'PHP', 'Django',
     'MySQL', 'PostgreSQL', 'MongoDB',
-    'Git', 'Docker', 'Nginx', 'Cloudflare',
+    'Git', 'Docker', 'Nginx', 'Cloudflare', 'Gunicorn',
     'Unity', 'Blender', 'OpenXR', 'Meta XR SDK',
     'D3.js', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
+    'NumPy', 'Stitch',
     'Scrum',
     'Linux(Ubuntu, Kali, Arch)', 'Windows',
   ],
   experiences: [
     {
-      company: 'SGI LAB MANAGER',
+      company: 'Proyecto Independiente — SGI LAB MANAGER',
       position: 'Creador y Desarrollador Principal 🛠️',
       from: 'Febrero 2024',
       to: 'Presente',
@@ -232,6 +233,13 @@ const CONFIG_ES = {
     ],
   },
   footer: `Hecho con <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a> y ❤️`,
+  i18n: {
+    resumeButton: 'Descargar CV',
+    basedIn: 'Ubicación:',
+    organization: 'Organización:',
+    website: 'Sitio web:',
+    phone: 'Teléfono:',
+  },
   enablePWA: true,
 };
 
@@ -263,7 +271,7 @@ const CONFIG_EN = {
         {
           title: 'SGI LAB MANAGER - Overview 📊',
           description:
-            'Full-featured lab management system for Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Cross-platform app in Flutter/Dart with Django REST backend. Own infrastructure: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 71 automated tests with pytest. Live in production — new accounts start with Student role.',
+            'Full-featured lab management system for Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Cross-platform app in Flutter/Dart with Django REST backend. Own infrastructure: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 92 Django tests · 71 pytest e2e · 22 Flutter e2e. v1.0 stable (Jun 2026) · live in production.',
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/02_dashboard.png',
           link: 'https://sgilabmanager.foxyyts.qzz.io',
         },
@@ -335,19 +343,20 @@ const CONFIG_EN = {
     fileUrl: 'https://drive.google.com/file/d/1AQEI4ZM9KXzf5nJpip5j96s7Ekj67veG/view?usp=sharing',
   },
   skills: [
-    'Python', 'Java', 'JavaScript', 'C++', 'C#', 'Dart',
+    'Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Dart',
     'HTML', 'CSS', 'Flutter',
     'Node.js', 'PHP', 'Django',
     'MySQL', 'PostgreSQL', 'MongoDB',
-    'Git', 'Docker', 'Nginx', 'Cloudflare',
+    'Git', 'Docker', 'Nginx', 'Cloudflare', 'Gunicorn',
     'Unity', 'Blender', 'OpenXR', 'Meta XR SDK',
     'D3.js', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
+    'NumPy', 'Stitch',
     'Scrum',
     'Linux(Ubuntu, Kali, Arch)', 'Windows',
   ],
   experiences: [
     {
-      company: 'SGI LAB MANAGER',
+      company: 'Independent Project — SGI LAB MANAGER',
       position: 'Creator & Lead Developer 🛠️',
       from: 'February 2024',
       to: 'Present',

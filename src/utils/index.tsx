@@ -7,6 +7,7 @@ import colors from '../data/colors.json';
 import {
   SanitizedConfig,
   SanitizedHotjar,
+  SanitizedI18n,
   SanitizedThemeConfig,
 } from '../interfaces/sanitized-config';
 
@@ -126,6 +127,13 @@ export const getSanitizedConfig = (
         displayAvatarRing: config?.themeConfig?.displayAvatarRing ?? true,
         themes: config?.themeConfig?.themes || DEFAULT_THEMES,
       },
+      i18n: {
+        resumeButton: config?.i18n?.resumeButton || 'Download Resume',
+        basedIn: config?.i18n?.basedIn || 'Based in:',
+        organization: config?.i18n?.organization || 'Organization:',
+        website: config?.i18n?.website || 'Website:',
+        phone: config?.i18n?.phone || 'Phone:',
+      } as SanitizedI18n,
       footer: config?.footer,
       enablePWA: config?.enablePWA ?? true,
     };

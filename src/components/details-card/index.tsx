@@ -25,6 +25,7 @@ import { SiResearchgate, SiX, SiUdemy } from 'react-icons/si';
 import { Profile } from '../../interfaces/profile';
 import {
   SanitizedGithub,
+  SanitizedI18n,
   SanitizedSocial,
 } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
@@ -34,6 +35,7 @@ type Props = {
   loading: boolean;
   social: SanitizedSocial;
   github: SanitizedGithub;
+  i18n: SanitizedI18n;
 };
 
 const isCompanyMention = (company: string): boolean => {
@@ -150,7 +152,7 @@ const OrganizationItem: React.FC<{
  * @param {Object} github - The GitHub object.
  * @return {JSX.Element} The details card component.
  */
-const DetailsCard = ({ profile, loading, social, github }: Props) => {
+const DetailsCard = ({ profile, loading, social, github, i18n }: Props) => {
   const renderSkeleton = () => {
     const array = [];
     for (let index = 0; index < 4; index++) {
@@ -179,14 +181,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {profile.location && (
                 <ListItem
                   icon={<MdLocationOn />}
-                  title="Based in:"
+                  title={i18n.basedIn}
                   value={profile.location}
                 />
               )}
               {profile.company && (
                 <OrganizationItem
                   icon={<FaBuilding />}
-                  title="Organization:"
+                  title={i18n.organization}
                   value={profile.company}
                   link={
                     isCompanyMention(profile.company.trim())
@@ -324,7 +326,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {social?.website && (
                 <ListItem
                   icon={<FaGlobe />}
-                  title="Website:"
+                  title={i18n.website}
                   value={social.website
                     .replace('https://', '')
                     .replace('http://', '')}
@@ -346,7 +348,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {social?.phone && (
                 <ListItem
                   icon={<RiPhoneFill />}
-                  title="Phone:"
+                  title={i18n.phone}
                   value={social.phone}
                   link={`tel:${social.phone}`}
                 />
@@ -364,7 +366,6 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   icon={<RiDiscordFill />}
                   title="Discord:"
                   value={social.discord}
-                  link={`https://discord.com/app`}
                 />
               )}
             </Fragment>

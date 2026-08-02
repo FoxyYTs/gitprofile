@@ -8,6 +8,7 @@ interface AvatarCardProps {
   loading: boolean;
   avatarRing: boolean;
   resumeFileUrl?: string;
+  resumeButtonLabel?: string;
 }
 
 /**
@@ -23,6 +24,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
   loading,
   avatarRing,
   resumeFileUrl,
+  resumeButtonLabel = 'Download Resume',
 }): React.JSX.Element => {
   return (
     <div className="card shadow-lg card-sm bg-base-100">
@@ -86,10 +88,9 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               href={resumeFileUrl}
               target="_blank"
               className="btn btn-outline btn-sm text-xs mt-6 opacity-50"
-              download
               rel="noreferrer"
             >
-              Download Resume
+              {resumeButtonLabel}
             </a>
           ))}
       </div>
