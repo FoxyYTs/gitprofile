@@ -148,12 +148,6 @@ const CONFIG_ES = {
       link: 'https://platzi.com/p/JoseDaza/curso/11997-course/diploma/detalle/',
     },
     {
-      name: 'Introducción a la Terminal y Línea de Comandos',
-      body: 'Certifica el conocimiento en el uso de la terminal, línea de comandos y herramientas de shell en entornos Linux.',
-      year: 'Diciembre 2025',
-      link: 'https://platzi.com/p/JoseDaza/curso/12040-course/diploma/detalle/',
-    },
-    {
       name: 'MongoDB for SQL Professionals',
       year: 'Noviembre 2025',
       link: 'https://learn.mongodb.com/c/r0Q-OyvpRNa1u05RIrvIog',
@@ -395,12 +389,6 @@ const CONFIG_EN = {
       body: 'Certifies knowledge of the fundamentals, principles and best practices of Software Engineering.',
       year: 'December 2025',
       link: 'https://platzi.com/p/JoseDaza/curso/11997-course/diploma/detalle/',
-    },
-    {
-      name: 'Introduction to Terminal & Command Line',
-      body: 'Certifies knowledge of terminal usage, command line, and shell tools in Linux environments.',
-      year: 'December 2025',
-      link: 'https://platzi.com/p/JoseDaza/curso/12040-course/diploma/detalle/',
     },
     {
       name: 'MongoDB for SQL Professionals',
