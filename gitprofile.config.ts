@@ -56,7 +56,7 @@ const CONFIG_ES = {
         {
           title: 'Semillero de Ambientes Inmersivos de Aprendizaje — RV 🥽',
           description:
-            'Proyecto finalizado (2023–2025). Semillero de investigación en el Politécnico Colombiano Jaime Isaza Cadavid enfocado en entornos 3D inmersivos para preservar y proyectar espacios educativos. Se desarrolló un prototipo de campus virtual en VRChat con Meta Quest 2, incluyendo el modelado completo del Bloque R27 junto a estudiantes de Ingeniería Civil. Los activos generados son la base del actual proyecto Laboratorio Virtual VR. Tecnologías: Unity, Blender, escaneo 3D, VRChat, OpenXR.',
+            'Proyecto finalizado (2023–2026). Semillero de investigación en el Politécnico Colombiano Jaime Isaza Cadavid enfocado en entornos 3D inmersivos para preservar y proyectar espacios educativos. Se desarrolló un prototipo de campus virtual en VRChat con Meta Quest 2, incluyendo el modelado completo del Bloque R27 junto a estudiantes de Ingeniería Civil. Los activos generados son la base del actual proyecto Laboratorio Virtual VR. Tecnologías: Unity, Blender, escaneo 3D, VRChat, OpenXR.',
           imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgegrupo.jpg?raw=true',
         },
         {
@@ -299,7 +299,7 @@ const CONFIG_EN = {
         {
           title: 'Immersive Learning Environments Research Group — VR 🥽',
           description:
-            'Concluded project (2023–2025). Research group at Politécnico Colombiano Jaime Isaza Cadavid focused on 3D immersive environments for preserving and projecting educational spaces. Delivered a functional virtual campus prototype in VRChat with Meta Quest 2, including full 3D modeling of Bloque R27 alongside Civil Engineering students. The assets produced serve as the foundation for the ongoing Virtual VR Laboratory project. Technologies: Unity, Blender, 3D scanning, VRChat, OpenXR.',
+            'Concluded project (2023–2026). Research group at Politécnico Colombiano Jaime Isaza Cadavid focused on 3D immersive environments for preserving and projecting educational spaces. Delivered a functional virtual campus prototype in VRChat with Meta Quest 2, including full 3D modeling of Bloque R27 alongside Civil Engineering students. The assets produced serve as the foundation for the ongoing Virtual VR Laboratory project. Technologies: Unity, Blender, 3D scanning, VRChat, OpenXR.',
           imageUrl: 'https://github.com/FoxyYTs/imgs/blob/main/imgegrupo.jpg?raw=true',
         },
         {

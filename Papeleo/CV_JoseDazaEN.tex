@@ -1,0 +1,254 @@
+\documentclass[11pt, a4paper]{article}
+
+% ─── Packages ────────────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[top=1.8cm, bottom=1.8cm, left=2cm, right=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{fontawesome5}
+
+% ─── Colors ──────────────────────────────────────────────────────────────────
+\definecolor{primary}{HTML}{1A237E}
+\definecolor{accent}{HTML}{3F51B5}
+\definecolor{darkgray}{HTML}{424242}
+\definecolor{lightgray}{HTML}{F5F5F5}
+\definecolor{rulecol}{HTML}{C5CAE9}
+
+% ─── Hyperref ─────────────────────────────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdftitle={CV — Jose Andres Daza Gallego},
+  pdfauthor={Jose Andres Daza Gallego},
+}
+
+\pagestyle{empty}
+
+% ─── Section format ───────────────────────────────────────────────────────────
+\titleformat{\section}
+  {\large\bfseries\color{primary}}{}{0em}{}[{\color{rulecol}\titlerule[1pt]}]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+% ─── Compact lists ────────────────────────────────────────────────────────────
+\setlist[itemize]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% ─── Experience entry command ─────────────────────────────────────────────────
+\newcommand{\expentry}[4]{%
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{\color{primary}#1} & \textit{\small\color{darkgray}#3} \\
+    \textit{\color{accent}#2}  & \textit{\small\color{darkgray}#4} \\
+  \end{tabularx}%
+}
+
+% ─── Education entry command ──────────────────────────────────────────────────
+\newcommand{\eduentry}[4]{%
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & \textit{\small\color{darkgray}#3 — #4} \\
+    \textit{\color{darkgray}#2} & \\
+  \end{tabularx}%
+}
+
+% ═════════════════════════════════════════════════════════════════════════════
+\begin{document}
+
+% ─── Header ───────────────────────────────────────────────────────────────────
+\begin{center}
+  {\Huge\bfseries\color{primary} Jose Andres Daza Gallego}\\[4pt]
+  {\large\color{accent} Computer Engineering Student · Programming Technician}\\[8pt]
+  \small
+  \faPhone\ Available upon request \quad
+  \faEnvelope\ \href{mailto:foxy200442@gmail.com}{foxy200442@gmail.com} \quad
+  \faGithub\ \href{https://github.com/FoxyYTs}{github.com/FoxyYTs}\\[3pt]
+  \faLinkedin\ \href{https://www.linkedin.com/in/jose-andres-daza-gallego/}{linkedin.com/in/jose-andres-daza-gallego} \quad
+  \faGlobe\ \href{https://foxyyts.github.io/gitprofile/}{foxyyts.github.io/gitprofile}
+\end{center}
+
+\vspace{2pt}
+{\color{rulecol}\rule{\textwidth}{1.5pt}}
+\vspace{2pt}
+
+% ─── Summary ──────────────────────────────────────────────────────────────────
+\section{Summary}
+
+Computer Engineering student with hands-on experience in cross-platform software
+development, server administration, and laboratory management. Creator of
+\textbf{SGI LAB MANAGER}, a full-featured lab management system currently in production,
+built with Flutter and Django. Proven ability to lead projects end-to-end, collaborate
+with multidisciplinary teams, and deliver technical solutions in real-world environments.
+
+% ─── Technical Skills ─────────────────────────────────────────────────────────
+\section{Technical Skills}
+
+\begin{tabularx}{\textwidth}{@{} >{\bfseries\color{darkgray}}l X @{}}
+Languages            & Python, Java, JavaScript, TypeScript, Dart, C++, C\# \\[2pt]
+Front-End            & HTML, CSS, Flutter, D3.js \\[2pt]
+Back-End             & Django, Node.js, PHP, pytest \\[2pt]
+Databases            & MySQL, PostgreSQL, MongoDB, Redis \\[2pt]
+DevOps / Infra       & Git, Docker, Kubernetes, Nginx, Gunicorn, Cloudflare, Terraform \\[2pt]
+3D / VR              & Unity, Blender, OpenXR, Meta XR SDK \\[2pt]
+AI / LLMs            & Groq, Llama 3.1, Google Cloud TTS, Stitch \\[2pt]
+Methodologies        & Scrum \\[2pt]
+Operating Systems    & Linux (Ubuntu, Kali, Arch), Bash, Windows \\
+\end{tabularx}
+
+\medskip
+\noindent\textbf{\color{darkgray}Soft Skills:}
+Leadership, effective communication, problem-solving, teamwork.
+
+% ─── Experience ───────────────────────────────────────────────────────────────
+\section{Experience}
+
+\expentry{SGI LAB MANAGER}{Creator \& Lead Developer}{February 2024}{Present}
+
+\begin{itemize}
+  \item Designed, developed, and launched the first version of a full lab management
+        system for Politécnico Colombiano Jaime Isaza Cadavid.
+  \item Cross-platform architecture with \textbf{Flutter/Dart} (Android, Web, Windows, Linux)
+        and \textbf{Django REST Framework} backend on PostgreSQL 15.
+  \item Full DevOps ownership: Docker Compose, Nginx, Gunicorn, Cloudflare Zero Trust
+        Tunnel, automated encrypted backups (GPG AES-256), and Telegram monitoring.
+  \item Modules: GHS chemical safety inventory with AI-powered SDS extraction
+        (Groq/Llama 3.1), loans, weekly scheduling, 6 PDF report types, and public
+        QR forms.
+  \item 92 Django tests, 71 pytest e2e, and 22 Flutter e2e tests. v1.0 stable (Jun 2026).
+        End-to-end ownership: planning, architecture, development, deployment, and
+        ongoing maintenance.
+\end{itemize}
+
+\vspace{6pt}
+\expentry{Politécnico Colombiano Jaime Isaza Cadavid}{Laboratory Monitor}{February 2024}{Present}
+
+\begin{itemize}
+  \item Supervised daily operations of the computer lab, providing technical support
+        to students and faculty.
+  \item Implemented preventive maintenance protocols and resolved technical issues
+        efficiently.
+  \item Trained users on specialized software and hardware.
+\end{itemize}
+
+\vspace{6pt}
+\expentry{Politécnico Colombiano Jaime Isaza Cadavid}{Server Administrator}{January 2024}{Present}
+
+\begin{itemize}
+  \item Configured and administered the lab server using Docker, Nginx, and secure
+        remote access via Cloudflare Tunnel.
+  \item Maintain a personal home server for personal projects and experimentation.
+\end{itemize}
+
+\vspace{6pt}
+\expentry{Immersive Learning Environments Research Group}{VR Researcher \& Developer — Politécnico Colombiano Jaime Isaza Cadavid}{2023}{August 2026}
+
+\textit{\small\color{darkgray}Project concluded due to loss of institutional research support.}
+
+\begin{itemize}
+  \item Was part of the founding team of the research group.
+  \item Contributed to the development of 3D immersive environments of the Politécnico
+        alongside the team, including Civil Engineering students who led most of the
+        Bloque R27 modeling.
+  \item Contributed to the virtual campus prototype in VRChat using Meta Quest 2.
+  \item The Bloque R27 assets produced during this project serve as the foundation
+        for the ongoing Virtual VR Laboratory project.
+\end{itemize}
+
+% ─── Projects ─────────────────────────────────────────────────────────────────
+\section{Notable Projects}
+
+\noindent\textbf{\color{primary}SGI LAB MANAGER} \hfill
+\href{https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND}{\small\faGithub\ FoxyYTs/SGI\_LAB\_MANAGER\_FRONTEND}
+
+Cross-platform lab management platform (Android, Web, Windows, Linux) built with
+Flutter/Dart and Django REST Framework. Own infrastructure: Docker Compose, Nginx,
+Gunicorn, PostgreSQL 15, Cloudflare Zero Trust Tunnel, and automated encrypted backups
+(GPG AES-256) with Telegram monitoring. Modules: GHS inventory with AI-powered SDS
+extraction (Groq/Llama 3.1), loans, weekly scheduling, 6 PDF report types, and public
+QR forms. 92 Django tests · 71 pytest e2e · 22 Flutter e2e. v1.0 stable (Jun 2026).
+
+\vspace{6pt}
+\noindent\textbf{\color{primary}Interactive Academic Curriculum — PCJIC Rionegro} \hfill
+\href{https://github.com/FoxyYTs/pensum-interactivo}{\small\faGithub\ FoxyYTs/pensum-interactivo} \quad
+\href{https://foxyyts.github.io/pensum-interactivo}{\small\faGlobe\ Live site}
+
+Interactive curriculum visualizer for all 8 degree programs at the Rionegro campus of
+Politécnico Colombiano Jaime Isaza Cadavid. Directed graph with D3.js showing courses,
+prerequisites, credits, and completion percentage, with \texttt{localStorage} persistence.
+PWA deployed on GitHub Pages with automated CI/CD via GitHub Actions. Adapted fork of a
+Chilean open-source project, with full terminology migration and new features.
+
+\vspace{6pt}
+\noindent\textbf{\color{primary}Virtual VR Laboratory} \hfill
+\textit{\small\color{darkgray}In development — June 2026}
+
+Successor to the Immersive Learning Environments research group. Virtual lab platform
+for the Politécnico's Meta Quest 2 headsets, reusing the Bloque R27 spaces digitized
+during the research group as the setting for interactive lab sessions. 4 modules
+(Physics, Waves \& Optics, Chemistry, Electricity \& Magnetism) with 12 guided
+practices plus one VR-exclusive practice per module. Built with Unity 6.3 LTS, C\#,
+OpenXR, and Meta XR SDK. Three modes: Meta Quest 2 standalone, PC VR, and desktop.
+
+% ─── Education ────────────────────────────────────────────────────────────────
+\section{Education}
+
+\eduentry{B.Eng.\ in Computer Engineering \textmd{--- in progress, 9th semester}}{Politécnico Colombiano Jaime Isaza Cadavid}{August 2022}{Expected 2027}
+
+\vspace{4pt}
+\eduentry{Technical High School Diploma in Programming}{I.E. INEM José Félix de Restrepo}{February 2015}{December 2020}
+
+% ─── Additional Education ─────────────────────────────────────────────────────
+\section{Additional Education \& Certifications}
+
+\begin{itemize}[itemsep=1pt]
+  \item \textbf{Git \& GitHub} — Platzi (Dec 2025)
+  \item \textbf{Software Engineering Fundamentals} — Platzi (Dec 2025)
+  \item \textbf{MongoDB for SQL Professionals} — MongoDB Academy (Nov 2025)
+  \item \textbf{Linux Essentials} — LPI / Cisco (Nov 2025)
+  \item \textbf{Django} — Platzi (Aug 2025)
+  \item \textbf{Python} — Platzi (Aug 2025)
+  \item \textbf{Certified Kubernetes Administrator (CKA)} — Udemy (Apr 2025)
+  \item \textbf{PL DEVOPS} — SoftServe Academy (Jun 2025)
+  \item \textbf{Java SE Object-Oriented Programming} — Platzi (Sep 2023)
+  \item \textbf{Object-Oriented Programming} — Platzi (Apr 2023)
+  \item \textbf{Personal Development G8 - ONE} — Alura \& Oracle
+  \item \textbf{Programming Logic with JavaScript} — Alura \& Oracle
+  \item \textbf{Game Development} — Platzi (Jan 2021)
+\end{itemize}
+
+% ─── Languages ────────────────────────────────────────────────────────────────
+\section{Languages}
+
+\noindent\textbf{Spanish} — Native \hfill \textbf{English} — Intermediate (reading and technical proficiency)
+
+% ─── References ───────────────────────────────────────────────────────────────
+\section{References}
+
+\begin{itemize}[leftmargin=0pt, label={}, itemsep=6pt]
+  \item \textbf{Luz Delly Jaramillo Carmona} \textit{— Lab Supervisor, Politécnico Colombiano JIC}\\
+        \href{mailto:luzjaramillo@elpoli.edu.co}{luzjaramillo@elpoli.edu.co}
+  \item \textbf{Ángela Viviana Martínez Betancur} \textit{— Lab Supervisor, Politécnico Colombiano JIC}\\
+        \href{mailto:angelamartinez@elpoli.edu.co}{angelamartinez@elpoli.edu.co}
+  \item \textbf{Ariel Yesid Aristizábal Álzate} \textit{— Lab Supervisor, Politécnico Colombiano JIC}\\
+        \href{mailto:arielaristizabal@elpoli.edu.co}{arielaristizabal@elpoli.edu.co}
+\end{itemize}
+\small\textit{Phone numbers available upon request.}\normalsize
+
+% ─── Interests ────────────────────────────────────────────────────────────────
+\section{Interests \& Hobbies}
+
+\noindent
+\textbf{Electronics \& IoT}~· \mbox{\textbf{Motorcycle Mechanics}}~· \mbox{\textbf{Game Development}}~· \mbox{\textbf{DIY Projects}}~· \mbox{\textbf{Cybersecurity}}
+
+\end{document}

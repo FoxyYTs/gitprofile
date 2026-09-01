@@ -1,0 +1,255 @@
+\documentclass[11pt, a4paper]{article}
+
+% ─── Paquetes ────────────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[top=1.8cm, bottom=1.8cm, left=2cm, right=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{fontawesome5}
+
+% ─── Colores ─────────────────────────────────────────────────────────────────
+\definecolor{primary}{HTML}{1A237E}
+\definecolor{accent}{HTML}{3F51B5}
+\definecolor{darkgray}{HTML}{424242}
+\definecolor{lightgray}{HTML}{F5F5F5}
+\definecolor{rulecol}{HTML}{C5CAE9}
+
+% ─── Hyperref ────────────────────────────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdftitle={CV — Jose Andres Daza Gallego},
+  pdfauthor={Jose Andres Daza Gallego},
+}
+
+\pagestyle{empty}
+
+% ─── Secciones ───────────────────────────────────────────────────────────────
+\titleformat{\section}
+  {\large\bfseries\color{primary}}{}{0em}{}[{\color{rulecol}\titlerule[1pt]}]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+% ─── Listas compactas ────────────────────────────────────────────────────────
+\setlist[itemize]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% ─── Comando para entrada de experiencia ─────────────────────────────────────
+\newcommand{\expentry}[4]{%
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{\color{primary}#1} & \textit{\small\color{darkgray}#3} \\
+    \textit{\color{accent}#2}  & \textit{\small\color{darkgray}#4} \\
+  \end{tabularx}%
+}
+
+% ─── Comando para entrada de educación ───────────────────────────────────────
+\newcommand{\eduentry}[4]{%
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & \textit{\small\color{darkgray}#3 — #4} \\
+    \textit{\color{darkgray}#2} & \\
+  \end{tabularx}%
+}
+
+% ═════════════════════════════════════════════════════════════════════════════
+\begin{document}
+
+% ─── Encabezado ──────────────────────────────────────────────────────────────
+\begin{center}
+  {\Huge\bfseries\color{primary} Jose Andres Daza Gallego}\\[4pt]
+  {\large\color{accent} Estudiante de Ingeniería Informática · Técnico en Programación}\\[8pt]
+  \small
+  \faPhone\ Disponible bajo solicitud \quad
+  \faEnvelope\ \href{mailto:foxy200442@gmail.com}{foxy200442@gmail.com} \quad
+  \faGithub\ \href{https://github.com/FoxyYTs}{github.com/FoxyYTs}\\[3pt]
+  \faLinkedin\ \href{https://www.linkedin.com/in/jose-andres-daza-gallego/}{linkedin.com/in/jose-andres-daza-gallego} \quad
+  \faGlobe\ \href{https://foxyyts.github.io/gitprofile/}{foxyyts.github.io/gitprofile}
+\end{center}
+
+\vspace{2pt}
+{\color{rulecol}\rule{\textwidth}{1.5pt}}
+\vspace{2pt}
+
+% ─── Resumen ─────────────────────────────────────────────────────────────────
+\section{Resumen de Calificaciones}
+
+Estudiante de Ingeniería Informática con experiencia práctica en desarrollo de software
+multi-plataforma, administración de servidores y gestión de laboratorios. Creador de
+\textbf{SGI LAB MANAGER}, sistema integral de gestión de laboratorio en producción desarrollado
+con Flutter y Django. Capacidad demostrada para liderar proyectos de principio a fin,
+trabajar con equipos multidisciplinarios y aplicar tecnologías modernas en entornos reales.
+
+% ─── Habilidades ─────────────────────────────────────────────────────────────
+\section{Habilidades Técnicas}
+
+\begin{tabularx}{\textwidth}{@{} >{\bfseries\color{darkgray}}l X @{}}
+Lenguajes            & Python, Java, JavaScript, TypeScript, Dart, C++, C\# \\[2pt]
+Front-End            & HTML, CSS, Flutter, D3.js \\[2pt]
+Back-End             & Django, Node.js, PHP, pytest \\[2pt]
+Bases de Datos       & MySQL, PostgreSQL, MongoDB, Redis \\[2pt]
+DevOps / Infra       & Git, Docker, Kubernetes, Nginx, Gunicorn, Cloudflare, Terraform \\[2pt]
+3D / VR              & Unity, Blender, OpenXR, Meta XR SDK \\[2pt]
+IA / LLMs            & Groq, Llama 3.1, Google Cloud TTS, Stitch \\[2pt]
+Metodologías         & Scrum \\[2pt]
+Sistemas Operativos  & Linux (Ubuntu, Kali, Arch), Bash, Windows \\
+\end{tabularx}
+
+\medskip
+\noindent\textbf{\color{darkgray}Habilidades Blandas:}
+Liderazgo, comunicación efectiva, resolución de problemas, trabajo en equipo.
+
+% ─── Experiencia ─────────────────────────────────────────────────────────────
+\section{Experiencia}
+
+\expentry{SGI LAB MANAGER}{Creador y Desarrollador Principal}{Febrero 2024}{Presente}
+
+\begin{itemize}
+  \item Diseñé, desarrollé y lancé la primera versión del sistema integral de gestión del
+        laboratorio del Politécnico Colombiano Jaime Isaza Cadavid.
+  \item Arquitectura multi-plataforma con \textbf{Flutter/Dart} (Android, Web, Windows, Linux)
+        y backend \textbf{Django REST Framework} sobre PostgreSQL 15.
+  \item DevOps completo: Docker Compose, Nginx, Gunicorn, Cloudflare Zero Trust Tunnel,
+        respaldos cifrados automáticos (GPG AES-256) y monitoreo con alertas Telegram.
+  \item Módulos: inventario GHS con extracción de FDS por IA (Groq/Llama 3.1), préstamos,
+        horario semanal, 6 tipos de informes PDF y formularios públicos por QR.
+  \item 92 tests Django, 71 pytest e2e y 22 e2e Flutter. v1.0 estable (jun 2026).
+        Gestión completa del ciclo de vida: planificación, arquitectura, desarrollo,
+        despliegue y mantenimiento.
+\end{itemize}
+
+\vspace{6pt}
+\expentry{Politécnico Colombiano Jaime Isaza Cadavid}{Monitor de Laboratorio}{Febrero 2024}{Presente}
+
+\begin{itemize}
+  \item Supervisé las actividades diarias del laboratorio brindando soporte técnico
+        a estudiantes y profesores.
+  \item Implementé protocolos de mantenimiento preventivo y resolví problemas técnicos
+        de forma eficiente.
+  \item Capacité a usuarios en software y hardware especializado.
+\end{itemize}
+
+\vspace{6pt}
+\expentry{Politécnico Colombiano Jaime Isaza Cadavid}{Administrador de Servidores}{Enero 2024}{Presente}
+
+\begin{itemize}
+  \item Configuré y administré el servidor del laboratorio con Docker, Nginx y acceso
+        seguro mediante Cloudflare Tunnel.
+  \item Mantengo un servidor personal en casa para experimentación y desarrollo de
+        proyectos propios.
+\end{itemize}
+
+\vspace{6pt}
+\expentry{Semillero de Ambientes Inmersivos de Aprendizaje — Politécnico Colombiano Jaime Isaza Cadavid}{Investigador y Desarrollador VR}{2023}{Agosto 2026}
+
+\textit{\small\color{darkgray}Proyecto finalizado por falta de apoyo del área de investigación institucional.}
+
+\begin{itemize}
+  \item Fui parte del grupo fundador del semillero.
+  \item Participé en el desarrollo de entornos 3D inmersivos del Politécnico junto con
+        el equipo, incluyendo estudiantes de Ingeniería Civil que lideraron gran parte
+        del modelado del Bloque R27.
+  \item Contribuí al prototipo de campus virtual en VRChat con Meta Quest 2.
+  \item Los activos del Bloque R27 generados en el semillero son la base del actual
+        proyecto Laboratorio Virtual VR.
+\end{itemize}
+
+% ─── Proyectos ───────────────────────────────────────────────────────────────
+\section{Proyectos Destacados}
+
+\noindent\textbf{\color{primary}SGI LAB MANAGER} \hfill
+\href{https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND}{\small\faGithub\ FoxyYTs/SGI\_LAB\_MANAGER\_FRONTEND}
+
+Plataforma integral de gestión de laboratorio multi-plataforma (Android, Web, Windows, Linux)
+con Flutter/Dart y Django REST Framework. Infraestructura propia: Docker Compose, Nginx,
+Gunicorn, PostgreSQL 15, Cloudflare Zero Trust Tunnel y respaldos automáticos cifrados
+(GPG AES-256) con monitoreo por Telegram. Módulos: inventario GHS con extracción de FDS
+por IA (Groq/Llama 3.1), préstamos, horario semanal, 6 tipos de informes PDF y formularios
+públicos por QR. 92 tests Django · 71 pytest e2e · 22 Flutter e2e. v1.0 estable (jun 2026).
+
+\vspace{6pt}
+\noindent\textbf{\color{primary}Pensum Interactivo — PCJIC Rionegro} \hfill
+\href{https://github.com/FoxyYTs/pensum-interactivo}{\small\faGithub\ FoxyYTs/pensum-interactivo} \quad
+\href{https://foxyyts.github.io/pensum-interactivo}{\small\faGlobe\ Sitio de producción}
+
+Visualizador interactivo de pensum académico para las 8 carreras de la sede Rionegro del
+Politécnico Colombiano Jaime Isaza Cadavid. Grafo dirigido con D3.js: asignaturas,
+prerrequisitos, créditos y porcentaje de avance con persistencia en \texttt{localStorage}.
+PWA desplegada en GitHub Pages con CI/CD automatizado via GitHub Actions. Fork adaptado
+de un proyecto chileno de código abierto, con migración de terminología, datos completos
+del PCJIC y nuevas funcionalidades.
+
+\vspace{6pt}
+\noindent\textbf{\color{primary}Laboratorio Virtual VR} \hfill
+\textit{\small\color{darkgray}En desarrollo — Junio 2026}
+
+Sucesor del Semillero AIA. Plataforma de laboratorio
+virtual para los Meta Quest 2 del Politécnico, que reutiliza los espacios del Bloque R27
+digitalizados durante el semillero como escenario para prácticas interactivas. 4 módulos
+(Física, Ondas y Óptica, Química, Electricidad y Magnetismo) con 12 prácticas basadas
+en las guías universitarias más una práctica VR-exclusiva por módulo. Unity 6.3 LTS,
+C\#, OpenXR, Meta XR SDK. Triple modalidad: Meta Quest 2 standalone, PC VR y escritorio.
+
+% ─── Educación ───────────────────────────────────────────────────────────────
+\section{Educación}
+
+\eduentry{Ingeniería Informática \textmd{--- en curso, 9.º semestre}}{Politécnico Colombiano Jaime Isaza Cadavid}{Agosto 2022}{Graduación prevista 2027}
+
+\vspace{4pt}
+\eduentry{Bachiller Técnico en Informática}{I.E. INEM José Félix de Restrepo}{Febrero 2015}{Diciembre 2020}
+
+% ─── Educación adicional ─────────────────────────────────────────────────────
+\section{Educación Adicional y Certificaciones}
+
+\begin{itemize}[itemsep=1pt]
+  \item \textbf{Git y GitHub} — Platzi (Dic 2025)
+  \item \textbf{Fundamentos de Ingeniería de Software} — Platzi (Dic 2025)
+  \item \textbf{MongoDB for SQL Professionals} — MongoDB Academy (Nov 2025)
+  \item \textbf{Linux Essentials} — Linux Professional Institute / Cisco (Nov 2025)
+  \item \textbf{Django} — Platzi (Ago 2025)
+  \item \textbf{Python} — Platzi (Ago 2025)
+  \item \textbf{Certified Kubernetes Administrator (CKA)} — Udemy (Abr 2025)
+  \item \textbf{PL DEVOPS} — SoftServe Academy (Jun 2025)
+  \item \textbf{Java SE Orientado a Objetos} — Platzi (Sep 2023)
+  \item \textbf{Programación Orientada a Objetos} — Platzi (Abr 2023)
+  \item \textbf{Desarrollo Personal G8 - ONE} — Alura y Oracle
+  \item \textbf{Lógica de Programación con JavaScript} — Alura y Oracle
+  \item \textbf{Creación de Videojuegos} — Platzi (Ene 2021)
+\end{itemize}
+
+% ─── Idiomas ─────────────────────────────────────────────────────────────────
+\section{Idiomas}
+
+\noindent\textbf{Español} — Nativo \hfill \textbf{Inglés} — Intermedio (competencia lectora y técnica)
+
+% ─── Referencias ─────────────────────────────────────────────────────────────
+\section{Referencias}
+
+\begin{itemize}[leftmargin=0pt, label={}, itemsep=6pt]
+  \item \textbf{Luz Delly Jaramillo Carmona} \textit{— Supervisora de Laboratorio, Politécnico Colombiano JIC}\\
+        \href{mailto:luzjaramillo@elpoli.edu.co}{luzjaramillo@elpoli.edu.co}
+  \item \textbf{Ángela Viviana Martínez Betancur} \textit{— Supervisora de Laboratorio, Politécnico Colombiano JIC}\\
+        \href{mailto:angelamartinez@elpoli.edu.co}{angelamartinez@elpoli.edu.co}
+  \item \textbf{Ariel Yesid Aristizábal Álzate} \textit{— Supervisor de Laboratorio, Politécnico Colombiano JIC}\\
+        \href{mailto:arielaristizabal@elpoli.edu.co}{arielaristizabal@elpoli.edu.co}
+\end{itemize}
+\small\textit{Teléfonos disponibles bajo solicitud.}\normalsize
+
+% ─── Hobbies ─────────────────────────────────────────────────────────────────
+\section{Intereses y Hobbies}
+
+\noindent
+\textbf{Electrónica e IoT}~· \textbf{Mecánica de Motocicletas}~· \mbox{\textbf{Desarrollo de Videojuegos}}~· \mbox{\textbf{Proyectos DIY}}~· \textbf{Ciberseguridad}
+
+\end{document}
