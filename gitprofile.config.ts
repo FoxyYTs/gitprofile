@@ -102,14 +102,14 @@ const CONFIG_ES = {
   skills: [
     'Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Dart',
     'HTML', 'CSS', 'Flutter',
-    'Node.js', 'PHP', 'Django',
-    'MySQL', 'PostgreSQL', 'MongoDB',
-    'Git', 'Docker', 'Nginx', 'Cloudflare', 'Gunicorn',
+    'Node.js', 'PHP', 'Django', 'pytest',
+    'MySQL', 'PostgreSQL', 'MongoDB', 'Redis',
+    'Git', 'Docker', 'Kubernetes', 'Nginx', 'Cloudflare', 'Gunicorn', 'Terraform',
     'Unity', 'Blender', 'OpenXR', 'Meta XR SDK',
     'D3.js', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
     'NumPy', 'Stitch',
     'Scrum',
-    'Linux(Ubuntu, Kali, Arch)', 'Windows',
+    'Bash', 'Linux(Ubuntu, Kali, Arch)', 'Windows',
   ],
   experiences: [
     {
@@ -146,6 +146,12 @@ const CONFIG_ES = {
       body: 'Certifica el conocimiento en fundamentos, principios y buenas prácticas de la Ingeniería de Software.',
       year: 'Diciembre 2025',
       link: 'https://platzi.com/p/JoseDaza/curso/11997-course/diploma/detalle/',
+    },
+    {
+      name: 'Introducción a la Terminal y Línea de Comandos',
+      body: 'Certifica el conocimiento en el uso de la terminal, línea de comandos y herramientas de shell en entornos Linux.',
+      year: 'Diciembre 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/12040-course/diploma/detalle/',
     },
     {
       name: 'MongoDB for SQL Professionals',
@@ -345,14 +351,14 @@ const CONFIG_EN = {
   skills: [
     'Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Dart',
     'HTML', 'CSS', 'Flutter',
-    'Node.js', 'PHP', 'Django',
-    'MySQL', 'PostgreSQL', 'MongoDB',
-    'Git', 'Docker', 'Nginx', 'Cloudflare', 'Gunicorn',
+    'Node.js', 'PHP', 'Django', 'pytest',
+    'MySQL', 'PostgreSQL', 'MongoDB', 'Redis',
+    'Git', 'Docker', 'Kubernetes', 'Nginx', 'Cloudflare', 'Gunicorn', 'Terraform',
     'Unity', 'Blender', 'OpenXR', 'Meta XR SDK',
     'D3.js', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
     'NumPy', 'Stitch',
     'Scrum',
-    'Linux(Ubuntu, Kali, Arch)', 'Windows',
+    'Bash', 'Linux(Ubuntu, Kali, Arch)', 'Windows',
   ],
   experiences: [
     {
@@ -389,6 +395,12 @@ const CONFIG_EN = {
       body: 'Certifies knowledge of the fundamentals, principles and best practices of Software Engineering.',
       year: 'December 2025',
       link: 'https://platzi.com/p/JoseDaza/curso/11997-course/diploma/detalle/',
+    },
+    {
+      name: 'Introduction to Terminal & Command Line',
+      body: 'Certifies knowledge of terminal usage, command line, and shell tools in Linux environments.',
+      year: 'December 2025',
+      link: 'https://platzi.com/p/JoseDaza/curso/12040-course/diploma/detalle/',
     },
     {
       name: 'MongoDB for SQL Professionals',
