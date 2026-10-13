@@ -215,7 +215,7 @@ const CONFIG_ES = {
     },
   ],
   googleAnalytics: {
-    id: 'G-5NPY5MX45W',
+    id: 'G-4TC98L5615',
   },
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
@@ -458,7 +458,7 @@ const CONFIG_EN = {
     },
   ],
   googleAnalytics: {
-    id: 'G-5NPY5MX45W',
+    id: 'G-4TC98L5615',
   },
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
