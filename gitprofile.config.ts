@@ -19,7 +19,7 @@ const CONFIG_ES = {
         },
       },
       manual: {
-        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND', 'FoxyYTs/pensum-interactivo'],
+        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND', 'FoxyYTs/Vigia', 'FoxyYTs/pensum-interactivo'],
       },
     },
     external: {
@@ -52,6 +52,13 @@ const CONFIG_ES = {
             'Modo offline con SQLite y cola de sincronización automática. JWT con refresco transparente y blacklist. Respaldos automáticos cifrados (pg_dump → gzip → GPG AES-256 → GitHub privado). Monitor de disponibilidad cada 5 min con alertas por Telegram. Cloudflare Zero Trust: ningún puerto expuesto directamente.',
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/03_inventario.png',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+        },
+        {
+          title: 'Vigía - Alertas de Incendios Forestales 🔥',
+          description:
+            'Sistema de alerta temprana de incendios forestales en Colombia, desarrollado de forma individual como Proyecto Integrador. Ingesta cada 3 horas focos de NASA FIRMS e INPE, ya con más de 880 mil focos, y cruza históricos de UNGRD e IDEAM. Las alertas se agrupan y llegan por Telegram a un canal de revisión. Modelo de zonas recurrentes con scikit-learn sobre 1.122 municipios. Django REST + PostGIS + Celery, app Flutter web y Android (prueba interna en Google Play). En producción con Docker y Cloudflare Tunnel, CI en GitHub Actions y más de 240 tests.',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/Vigia/main/app/design/play-store/icono-512.png',
+          link: 'https://vigia.foxyyts.qzz.io',
         },
         {
           title: 'Semillero de Ambientes Inmersivos de Aprendizaje — RV 🥽',
@@ -103,10 +110,10 @@ const CONFIG_ES = {
     'Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Dart',
     'HTML', 'CSS', 'Flutter',
     'Node.js', 'PHP', 'Django', 'pytest',
-    'MySQL', 'PostgreSQL', 'MongoDB', 'Redis',
+    'MySQL', 'PostgreSQL', 'PostGIS', 'MongoDB', 'Redis', 'Celery',
     'Git', 'Docker', 'Kubernetes', 'Nginx', 'Cloudflare', 'Gunicorn',
     'Unity', 'Blender', 'OpenXR', 'Meta XR SDK',
-    'D3.js', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
+    'D3.js', 'scikit-learn', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
     'Google Stitch',
     'Scrum',
     'Bash', 'Linux(Ubuntu, Kali, Arch)', 'Windows',
@@ -262,7 +269,7 @@ const CONFIG_EN = {
         },
       },
       manual: {
-        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND', 'FoxyYTs/pensum-interactivo'],
+        projects: ['FoxyYTs/SGI_LAB_MANAGER_FRONTEND', 'FoxyYTs/Vigia', 'FoxyYTs/pensum-interactivo'],
       },
     },
     external: {
@@ -295,6 +302,13 @@ const CONFIG_EN = {
             'Offline mode with SQLite and automatic sync queue. Transparent JWT refresh with blacklist. Automated encrypted backups (pg_dump → gzip → GPG AES-256 → private GitHub). Availability monitor every 5 min with Telegram alerts. Cloudflare Zero Trust: no ports exposed directly.',
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/03_inventario.png',
           link: 'https://github.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND',
+        },
+        {
+          title: 'Vigía - Wildfire Alerts 🔥',
+          description:
+            'Wildfire early-warning system for Colombia, built solo as my capstone project. Ingests NASA FIRMS and INPE hotspots every 3 hours, now over 880 thousand records, and cross-references UNGRD and IDEAM historical data. Alerts are grouped and delivered through Telegram to a review channel. Recurrent-zone model with scikit-learn across 1,122 municipalities. Django REST + PostGIS + Celery, Flutter web and Android app (Google Play internal testing). In production with Docker and Cloudflare Tunnel, CI on GitHub Actions and 240+ tests.',
+          imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/Vigia/main/app/design/play-store/icono-512.png',
+          link: 'https://vigia.foxyyts.qzz.io',
         },
         {
           title: 'Immersive Learning Environments Research Group — VR 🥽',
@@ -346,10 +360,10 @@ const CONFIG_EN = {
     'Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Dart',
     'HTML', 'CSS', 'Flutter',
     'Node.js', 'PHP', 'Django', 'pytest',
-    'MySQL', 'PostgreSQL', 'MongoDB', 'Redis',
+    'MySQL', 'PostgreSQL', 'PostGIS', 'MongoDB', 'Redis', 'Celery',
     'Git', 'Docker', 'Kubernetes', 'Nginx', 'Cloudflare', 'Gunicorn',
     'Unity', 'Blender', 'OpenXR', 'Meta XR SDK',
-    'D3.js', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
+    'D3.js', 'scikit-learn', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
     'Google Stitch',
     'Scrum',
     'Bash', 'Linux(Ubuntu, Kali, Arch)', 'Windows',
