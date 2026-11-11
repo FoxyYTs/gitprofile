@@ -28,7 +28,7 @@ const CONFIG_ES = {
         {
           title: 'SGI LAB MANAGER - Visión General 📊',
           description:
-            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). App multi-plataforma en Flutter/Dart con backend Django REST. Infraestructura propia: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 92 tests Django · 71 pytest e2e · 22 Flutter e2e. v1.0 estable (jun 2026) · en producción activa.',
+            'Sistema integral de gestión de laboratorio para el Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). App multi-plataforma en Flutter/Dart con backend Django REST. Infraestructura propia: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. Módulo de impresiones 3D con encargos de varias piezas, abonos y seguimiento público por QR. Más de 450 tests Django · 60+ pytest e2e · 190+ tests Flutter. v1.2.0 (nov 2026) · en producción activa.',
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/02_dashboard.png',
           link: 'https://sgilabmanager.foxyyts.qzz.io',
         },
@@ -78,7 +78,7 @@ const CONFIG_ES = {
   },
   seo: {
     title: 'Portafolio de Jose Andres Daza Gallego',
-    description: 'Portafolio personal de Jose Andres Daza Gallego, estudiante de Ingeniería Informática con experiencia en desarrollo web, desarrollo móvil, data science, devops y realidad virtual.',
+    description: 'Portafolio personal de Jose Andres Daza Gallego, estudiante de Ingeniería Informática con experiencia en desarrollo web, desarrollo móvil, DevOps, administración de servidores, ciencia de datos y realidad virtual.',
     imageURL: '',
   },
   social: {
@@ -104,7 +104,7 @@ const CONFIG_ES = {
     email: 'foxy200442@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1WJDMu-_4dG7YsA3YcKkEGoWmONs9Q5bA/view?usp=sharing',
+    fileUrl: '/gitprofile/cv/CV_JoseDazaES.pdf',
   },
   skills: [
     'Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Dart',
@@ -113,8 +113,7 @@ const CONFIG_ES = {
     'MySQL', 'PostgreSQL', 'PostGIS', 'MongoDB', 'Redis', 'Celery',
     'Git', 'Docker', 'Kubernetes', 'Nginx', 'Cloudflare', 'Gunicorn',
     'Unity', 'Blender', 'OpenXR', 'Meta XR SDK',
-    'D3.js', 'scikit-learn', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
-    'Google Stitch',
+    'D3.js', 'scikit-learn', 'Groq (Llama 3.1)', 'Google Cloud TTS',
     'Scrum',
     'Bash', 'Linux(Ubuntu, Kali, Arch)', 'Windows',
   ],
@@ -178,8 +177,8 @@ const CONFIG_ES = {
       link: 'https://platzi.com/p/JoseDaza/curso/1104-course/diploma/detalle/',
     },
     {
-      name: 'Certified Kubernetes Administrator (CKA) ☁️',
-      body: 'Demuestra habilidades en la administración de Kubernetes, la plataforma líder para la orquestación de contenedores.',
+      name: 'Certified Kubernetes Administrator (CKA) with Practice Tests ☁️',
+      body: 'Curso de preparación para la CKA en Udemy (KodeKloud, 27,5 horas): administración de clústeres de Kubernetes con laboratorios y exámenes de práctica.',
       year: 'Abril 2025',
       link: 'https://ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
     },
@@ -278,7 +277,7 @@ const CONFIG_EN = {
         {
           title: 'SGI LAB MANAGER - Overview 📊',
           description:
-            'Full-featured lab management system for Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Cross-platform app in Flutter/Dart with Django REST backend. Own infrastructure: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 92 Django tests · 71 pytest e2e · 22 Flutter e2e. v1.0 stable (Jun 2026) · live in production.',
+            'Full-featured lab management system for Politécnico Colombiano Jaime Isaza Cadavid (Rionegro). Cross-platform app in Flutter/Dart with Django REST backend. Own infrastructure: Docker + Nginx + PostgreSQL + Cloudflare Zero Trust Tunnel. 3D printing module with multi-part orders, partial payments and public QR tracking. 450+ Django tests · 60+ pytest e2e · 190+ Flutter tests. v1.2.0 (Nov 2026) · live in production.',
           imageUrl: 'https://raw.githubusercontent.com/FoxyYTs/SGI_LAB_MANAGER_FRONTEND/main/frontend/docs/screenshots/02_dashboard.png',
           link: 'https://sgilabmanager.foxyyts.qzz.io',
         },
@@ -328,7 +327,7 @@ const CONFIG_EN = {
   },
   seo: {
     title: 'Portfolio — Jose Andres Daza Gallego',
-    description: 'Personal portfolio of Jose Andres Daza Gallego, Computer Engineering student with experience in web development, mobile development, DevOps, server administration, and virtual reality.',
+    description: 'Personal portfolio of Jose Andres Daza Gallego, Computer Engineering student with experience in web development, mobile development, DevOps, server administration, data science, and virtual reality.',
     imageURL: '',
   },
   social: {
@@ -354,7 +353,7 @@ const CONFIG_EN = {
     email: 'foxy200442@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1AQEI4ZM9KXzf5nJpip5j96s7Ekj67veG/view?usp=sharing',
+    fileUrl: '/gitprofile/cv/CV_JoseDazaEN.pdf',
   },
   skills: [
     'Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Dart',
@@ -363,8 +362,7 @@ const CONFIG_EN = {
     'MySQL', 'PostgreSQL', 'PostGIS', 'MongoDB', 'Redis', 'Celery',
     'Git', 'Docker', 'Kubernetes', 'Nginx', 'Cloudflare', 'Gunicorn',
     'Unity', 'Blender', 'OpenXR', 'Meta XR SDK',
-    'D3.js', 'scikit-learn', 'Groq', 'Llama 3.1', 'Google Cloud TTS',
-    'Google Stitch',
+    'D3.js', 'scikit-learn', 'Groq (Llama 3.1)', 'Google Cloud TTS',
     'Scrum',
     'Bash', 'Linux(Ubuntu, Kali, Arch)', 'Windows',
   ],
@@ -428,8 +426,8 @@ const CONFIG_EN = {
       link: 'https://platzi.com/p/JoseDaza/curso/1104-course/diploma/detalle/',
     },
     {
-      name: 'Certified Kubernetes Administrator (CKA) ☁️',
-      body: 'Demonstrates skills in Kubernetes administration, the leading container orchestration platform.',
+      name: 'Certified Kubernetes Administrator (CKA) with Practice Tests ☁️',
+      body: 'CKA preparation course on Udemy (KodeKloud, 27.5 hours): Kubernetes cluster administration with hands-on labs and practice exams.',
       year: 'April 2025',
       link: 'https://ude.my/UC-dbc23515-cecf-4fae-b1a3-985daf57dd48',
     },

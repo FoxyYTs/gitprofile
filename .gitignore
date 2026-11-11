@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Compilación LaTeX de los CV (el PDF publicado va en public/cv)
+Papeleo/*.aux
+Papeleo/*.fls
+Papeleo/*.fdb_latexmk
+Papeleo/*.out
+Papeleo/*.pdf

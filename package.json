@@ -13,6 +13,7 @@
     "url": "https://github.com/arifszn/gitprofile/issues"
   },
   "scripts": {
+    "cv": "cd Papeleo && for l in ES EN; do latexmk -pdf -interaction=nonstopmode -quiet CV_JoseDaza$l.tex && cp CV_JoseDaza$l.pdf ../public/cv/ || exit 1; done && latexmk -c -quiet",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

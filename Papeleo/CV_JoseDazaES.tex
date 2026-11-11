@@ -88,7 +88,8 @@
 Estudiante de Ingeniería Informática con experiencia práctica en desarrollo de software
 multi-plataforma, administración de servidores y gestión de laboratorios. Creador de
 \textbf{SGI LAB MANAGER}, sistema integral de gestión de laboratorio en producción desarrollado
-con Flutter y Django. Capacidad demostrada para liderar proyectos de principio a fin,
+con Flutter y Django, y de \textbf{Vigía}, sistema de alerta temprana de incendios
+forestales con datos satelitales. Capacidad demostrada para liderar proyectos de principio a fin,
 trabajar con equipos multidisciplinarios y aplicar tecnologías modernas en entornos reales.
 
 % ─── Habilidades ─────────────────────────────────────────────────────────────
@@ -97,11 +98,11 @@ trabajar con equipos multidisciplinarios y aplicar tecnologías modernas en ento
 \begin{tabularx}{\textwidth}{@{} >{\bfseries\color{darkgray}}l X @{}}
 Lenguajes            & Python, Java, JavaScript, TypeScript, Dart, C++, C\# \\[2pt]
 Front-End            & HTML, CSS, Flutter, D3.js \\[2pt]
-Back-End             & Django, Node.js, PHP, pytest \\[2pt]
-Bases de Datos       & MySQL, PostgreSQL, MongoDB, Redis \\[2pt]
+Back-End             & Django, Celery, Node.js, PHP, pytest \\[2pt]
+Bases de Datos       & MySQL, PostgreSQL, PostGIS, MongoDB, Redis \\[2pt]
 DevOps / Infra       & Git, Docker, Kubernetes, Nginx, Gunicorn, Cloudflare \\[2pt]
 3D / VR              & Unity, Blender, OpenXR, Meta XR SDK \\[2pt]
-IA / LLMs            & Groq, Llama 3.1, Google Cloud TTS, Google Stitch \\[2pt]
+IA / Datos           & scikit-learn, Groq (Llama 3.1), Google Cloud TTS \\[2pt]
 Metodologías         & Scrum \\[2pt]
 Sistemas Operativos  & Linux (Ubuntu, Kali, Arch), Bash, Windows \\
 \end{tabularx}
@@ -123,8 +124,9 @@ Liderazgo, comunicación efectiva, resolución de problemas, trabajo en equipo.
   \item DevOps completo: Docker Compose, Nginx, Gunicorn, Cloudflare Zero Trust Tunnel,
         respaldos cifrados automáticos (GPG AES-256) y monitoreo con alertas Telegram.
   \item Módulos: inventario GHS con extracción de FDS por IA (Groq/Llama 3.1), préstamos,
-        horario semanal, 6 tipos de informes PDF y formularios públicos por QR.
-  \item 92 tests Django, 71 pytest e2e y 22 e2e Flutter. v1.0 estable (jun 2026).
+        horario semanal, 6 tipos de informes PDF, formularios públicos por QR e impresiones 3D
+        (encargos de varias piezas, abonos y seguimiento por QR).
+  \item Más de 450 tests Django, 60+ pytest e2e y 190+ tests Flutter. v1.2.0 (nov 2026).
         Gestión completa del ciclo de vida: planificación, arquitectura, desarrollo,
         despliegue y mantenimiento.
 \end{itemize}
@@ -177,7 +179,20 @@ con Flutter/Dart y Django REST Framework. Infraestructura propia: Docker Compose
 Gunicorn, PostgreSQL 15, Cloudflare Zero Trust Tunnel y respaldos automáticos cifrados
 (GPG AES-256) con monitoreo por Telegram. Módulos: inventario GHS con extracción de FDS
 por IA (Groq/Llama 3.1), préstamos, horario semanal, 6 tipos de informes PDF y formularios
-públicos por QR. 92 tests Django · 71 pytest e2e · 22 Flutter e2e. v1.0 estable (jun 2026).
+públicos por QR e impresiones 3D. Más de 450 tests Django · 60+ pytest e2e · 190+ tests Flutter.
+v1.2.0 (nov 2026).
+
+\vspace{6pt}
+\noindent\textbf{\color{primary}Vigía — Alertas de Incendios Forestales} \hfill
+\href{https://github.com/FoxyYTs/Vigia}{\small\faGithub\ FoxyYTs/Vigia} \quad
+\href{https://vigia.foxyyts.qzz.io}{\small\faGlobe\ Sitio de producción}
+
+Sistema de alerta temprana de incendios forestales en Colombia, desarrollado de forma
+individual como Proyecto Integrador. Ingesta cada 3 horas focos de NASA FIRMS e INPE
+(más de 880 mil focos) y cruza históricos de UNGRD e IDEAM; las alertas se agrupan y
+llegan por Telegram. Modelo de zonas recurrentes con scikit-learn sobre 1.122 municipios.
+Django REST, PostGIS y Celery, con app Flutter web y Android. En producción con Docker y
+Cloudflare Tunnel, CI en GitHub Actions y más de 240 tests.
 
 \vspace{6pt}
 \noindent\textbf{\color{primary}Pensum Interactivo — PCJIC Rionegro} \hfill
@@ -220,7 +235,7 @@ C\#, OpenXR, Meta XR SDK. Triple modalidad: Meta Quest 2 standalone, PC VR y esc
   \item \textbf{Linux Essentials} — Linux Professional Institute / Cisco (Nov 2025)
   \item \textbf{Django} — Platzi (Ago 2025)
   \item \textbf{Python} — Platzi (Ago 2025)
-  \item \textbf{Certified Kubernetes Administrator (CKA)} — Udemy (Abr 2025)
+  \item \textbf{Certified Kubernetes Administrator (CKA) with Practice Tests} — Udemy / KodeKloud (Abr 2025)
   \item \textbf{PL DEVOPS} — SoftServe Academy (Jun 2025)
   \item \textbf{Java SE Orientado a Objetos} — Platzi (Sep 2023)
   \item \textbf{Programación Orientada a Objetos} — Platzi (Abr 2023)
